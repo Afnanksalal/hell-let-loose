@@ -1,13 +1,17 @@
-# Art direction
+# Visual direction
 
-**Current user direction: FNF**, interpreted as Friday Night Funkin. Colorful cartoon art replaces the original pixel-art instruction. [Source](../../sources/current-conversation.md).
+Use bold outlines, clear silhouettes, strong color and expressive faces. Poses should exaggerate effort, confidence, panic and clumsiness. A tiny character carrying an oversized object should read before the player opens an inventory.
 
-Bold outlines, clear silhouettes, expressive faces, exaggerated poses, energetic animation and punchy colors are the interpreted visual qualities. Create original characters, environments and assets.
+## Day and night
 
-Warm playful daytime and eerie distorted nighttime can share the same drawing language. Dramatic squad assembly and theatrical battle entrances fit this direction. Horror does not require losing color or comedy.
+Daytime uses warm domestic color and readable household spaces. Night shifts lighting, shape and atmosphere without losing the characters' visual identity. Distorted familiar objects should carry more of the unease than an entirely different rendering style.
 
-Customization requires planning compatible layers, expression sets and animation reuse. Camera, perspective, resolution, rigging and rendering method remain open.
+## Customization
 
-## Superseded
+Characters need compatible clothing layers, expression sets and reusable animation. Test unusual body and outfit combinations in motion before expanding the wardrobe. Keep party silhouettes distinct during large encounters.
 
-Earlier top-down/isometric pixel art, 32×32 or 48×48 sprites and a matching tile grid are historical proposals only. FNF inspiration does not request rhythm gameplay. Godot 2D is a technical candidate, not an art constraint.
+## Production decisions
+
+Camera, asset resolution, frame-by-frame versus rigged animation and runtime rendering remain open. The current direction is drawn cartoon art; the earlier pixel-grid production plan is retired.
+
+All production artwork must have recorded authorship and usage rights. Asset organization is documented in [assets](../../assets/README.md).

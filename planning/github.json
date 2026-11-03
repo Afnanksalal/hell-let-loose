@@ -1,52 +1,485 @@
 {
   "repository": "https://github.com/Afnanksalal/hell-let-loose",
   "project": "https://github.com/users/Afnanksalal/projects/3",
-  "projectNumber": 3,
+  "engine": "Godot",
   "milestones": {
     "Foundation": 1,
     "Prototype": 2,
-    "Vertical slice": 3
+    "Vertical slice": 3,
+    "Alpha": 4,
+    "Beta": 5,
+    "Release": 6
   },
-  "seedIssues": [
-    {
-      "number": 1,
-      "title": "Establish public repository governance and project board",
-      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/1"
+  "issues": {
+    "godot": {
+      "number": 12,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/12",
+      "title": "[Epic] Godot project foundation",
+      "parent": null,
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Epic"
     },
-    {
+    "household": {
+      "number": 13,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/13",
+      "title": "[Epic] Daytime life and household stealth",
+      "parent": null,
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Epic"
+    },
+    "battle": {
+      "number": 14,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/14",
+      "title": "[Epic] Cooperative battle system",
+      "parent": null,
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Epic"
+    },
+    "identity": {
+      "number": 15,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/15",
+      "title": "[Epic] Character identity and art pipeline",
+      "parent": null,
+      "area": "Art",
+      "priority": "P1",
+      "gate": "G2",
+      "kind": "Epic"
+    },
+    "story": {
+      "number": 16,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/16",
+      "title": "[Epic] Neighborhood story and narration",
+      "parent": null,
+      "area": "Narrative",
+      "priority": "P1",
+      "gate": "G2",
+      "kind": "Epic"
+    },
+    "online": {
+      "number": 17,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/17",
+      "title": "[Epic] Multiplayer authority and campaign saves",
+      "parent": null,
+      "area": "Multiplayer",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Epic"
+    },
+    "generation": {
+      "number": 18,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/18",
+      "title": "[Epic] Progression, memory and generations",
+      "parent": null,
+      "area": "Design",
+      "priority": "P1",
+      "gate": "G3",
+      "kind": "Epic"
+    },
+    "release": {
+      "number": 19,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/19",
+      "title": "[Epic] Playtesting and release readiness",
+      "parent": null,
+      "area": "Governance",
+      "priority": "P1",
+      "gate": "G5",
+      "kind": "Epic"
+    },
+    "battle-decision": {
       "number": 2,
-      "title": "Decide multiplayer battle format",
-      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/2"
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/2",
+      "title": "Decide cooperative battle format",
+      "parent": "battle",
+      "area": "Gameplay",
+      "priority": "P0",
+      "gate": "G1",
+      "kind": "Decision"
     },
-    {
+    "customization-decision": {
       "number": 3,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/3",
       "title": "Define customization scope and art pipeline",
-      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/3"
+      "parent": "identity",
+      "area": "Art",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Decision"
     },
-    {
+    "behavior-decision": {
       "number": 4,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/4",
       "title": "Define daytime behavior-to-power rules",
-      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/4"
+      "parent": "household",
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Decision"
     },
-    {
+    "episode-outline": {
       "number": 5,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/5",
       "title": "Outline the first connected story episode",
-      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/5"
+      "parent": "story",
+      "area": "Narrative",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Decision"
     },
-    {
+    "network-decision": {
       "number": 6,
-      "title": "Decide engine, camera and multiplayer architecture",
-      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/6"
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/6",
+      "title": "Define Godot shared-state architecture and two-client validation",
+      "parent": "online",
+      "area": "Multiplayer",
+      "priority": "P0",
+      "gate": "G1",
+      "kind": "Decision"
     },
-    {
+    "aging-decision": {
       "number": 7,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/7",
       "title": "Define aging, memory loss and generation boundaries",
-      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/7"
+      "parent": "generation",
+      "area": "Design",
+      "priority": "P2",
+      "gate": "G2",
+      "kind": "Decision"
     },
-    {
+    "slice-scope": {
       "number": 8,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/8",
       "title": "Set vertical-slice scope and playtest evidence targets",
-      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/8"
+      "parent": "release",
+      "area": "Design",
+      "priority": "P2",
+      "gate": "G2",
+      "kind": "Decision"
+    },
+    "bootstrap": {
+      "number": 23,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/23",
+      "title": "Bootstrap the Godot project and pin its configuration",
+      "parent": "godot",
+      "area": "Gameplay",
+      "priority": "P0",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "state": {
+      "number": 21,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/21",
+      "title": "Define shared session state and phase transitions",
+      "parent": "godot",
+      "area": "Gameplay",
+      "priority": "P0",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "interaction": {
+      "number": 20,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/20",
+      "title": "Implement movement and contextual object interaction",
+      "parent": "godot",
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "resources": {
+      "number": 22,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/22",
+      "title": "Define Godot resources for authored gameplay data",
+      "parent": "godot",
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "needs": {
+      "number": 24,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/24",
+      "title": "Prototype baby needs as meaningful daytime choices",
+      "parent": "household",
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "parent": {
+      "number": 25,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/25",
+      "title": "Implement parent routines and household suspicion",
+      "parent": "household",
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "escape": {
+      "number": 26,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/26",
+      "title": "Build cooperative crib escape and dawn return",
+      "parent": "household",
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "power-implementation": {
+      "number": 27,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/27",
+      "title": "Connect one daytime behavior to a nighttime power",
+      "parent": "household",
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "battle-resolution": {
+      "number": 31,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/31",
+      "title": "Implement deterministic action validation and battle resolution",
+      "parent": "battle",
+      "area": "Gameplay",
+      "priority": "P0",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "status-effects": {
+      "number": 28,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/28",
+      "title": "Add status effects, team interactions and recovery",
+      "parent": "battle",
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "encounter": {
+      "number": 29,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/29",
+      "title": "Build one enemy encounter with a cooperative objective",
+      "parent": "battle",
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "party-pacing": {
+      "number": 30,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/30",
+      "title": "Evaluate battle pacing and readability at target party sizes",
+      "parent": "battle",
+      "area": "Gameplay",
+      "priority": "P1",
+      "gate": "G2",
+      "kind": "Task"
+    },
+    "visual-spec": {
+      "number": 33,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/33",
+      "title": "Produce an original character and environment visual specification",
+      "parent": "identity",
+      "area": "Art",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "layers": {
+      "number": 35,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/35",
+      "title": "Prototype character part composition in Godot",
+      "parent": "identity",
+      "area": "Art",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "creator": {
+      "number": 32,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/32",
+      "title": "Build character preview and customization selection",
+      "parent": "identity",
+      "area": "Art",
+      "priority": "P1",
+      "gate": "G2",
+      "kind": "Task"
+    },
+    "animation": {
+      "number": 34,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/34",
+      "title": "Establish animation and asset import conventions",
+      "parent": "identity",
+      "area": "Art",
+      "priority": "P1",
+      "gate": "G2",
+      "kind": "Task"
+    },
+    "event-runtime": {
+      "number": 37,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/37",
+      "title": "Implement authored event prerequisites and persistent outcomes",
+      "parent": "story",
+      "area": "Narrative",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "episode": {
+      "number": 36,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/36",
+      "title": "Build the first branching day-to-night episode",
+      "parent": "story",
+      "area": "Narrative",
+      "priority": "P1",
+      "gate": "G2",
+      "kind": "Task"
+    },
+    "narration": {
+      "number": 39,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/39",
+      "title": "Integrate narration, subtitles and story callbacks",
+      "parent": "story",
+      "area": "Narrative",
+      "priority": "P1",
+      "gate": "G2",
+      "kind": "Task"
+    },
+    "journal": {
+      "number": 38,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/38",
+      "title": "Add the story journal and clue persistence",
+      "parent": "story",
+      "area": "Narrative",
+      "priority": "P2",
+      "gate": "G2",
+      "kind": "Task"
+    },
+    "lobby": {
+      "number": 40,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/40",
+      "title": "Implement host/join lobby and player readiness",
+      "parent": "online",
+      "area": "Multiplayer",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "replication": {
+      "number": 41,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/41",
+      "title": "Synchronize interactions, phase state and battle requests",
+      "parent": "online",
+      "area": "Multiplayer",
+      "priority": "P0",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "save-schema": {
+      "number": 43,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/43",
+      "title": "Implement campaign/player save ownership and versioning",
+      "parent": "online",
+      "area": "Multiplayer",
+      "priority": "P1",
+      "gate": "G1",
+      "kind": "Task"
+    },
+    "interruption": {
+      "number": 42,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/42",
+      "title": "Handle player disconnects and host loss at checkpoints",
+      "parent": "online",
+      "area": "Multiplayer",
+      "priority": "P1",
+      "gate": "G2",
+      "kind": "Task"
+    },
+    "rewards": {
+      "number": 44,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/44",
+      "title": "Implement scoped rewards and equipment progression",
+      "parent": "generation",
+      "area": "Design",
+      "priority": "P2",
+      "gate": "G2",
+      "kind": "Task"
+    },
+    "age-model": {
+      "number": 45,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/45",
+      "title": "Specify and prototype age transitions and mixed-age parties",
+      "parent": "generation",
+      "area": "Design",
+      "priority": "P2",
+      "gate": "G3",
+      "kind": "Task"
+    },
+    "memory": {
+      "number": 46,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/46",
+      "title": "Prototype memories, fading identity and preserved player collections",
+      "parent": "generation",
+      "area": "Design",
+      "priority": "P2",
+      "gate": "G3",
+      "kind": "Task"
+    },
+    "generation-end": {
+      "number": 47,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/47",
+      "title": "Define the finale and next-generation inheritance contract",
+      "parent": "generation",
+      "area": "Design",
+      "priority": "P2",
+      "gate": "G3",
+      "kind": "Task"
+    },
+    "slice-playtest": {
+      "number": 48,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/48",
+      "title": "Run an external vertical-slice playtest and record findings",
+      "parent": "release",
+      "area": "Governance",
+      "priority": "P1",
+      "gate": "G2",
+      "kind": "Task"
+    },
+    "accessibility": {
+      "number": 49,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/49",
+      "title": "Review input, subtitles, readability and non-voice coordination",
+      "parent": "release",
+      "area": "Governance",
+      "priority": "P1",
+      "gate": "G4",
+      "kind": "Task"
+    },
+    "performance": {
+      "number": 50,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/50",
+      "title": "Measure frame time, network load and target-party stability",
+      "parent": "release",
+      "area": "Governance",
+      "priority": "P1",
+      "gate": "G4",
+      "kind": "Task"
+    },
+    "shipping": {
+      "number": 51,
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/51",
+      "title": "Prepare supported builds, notices and release recovery",
+      "parent": "release",
+      "area": "Governance",
+      "priority": "P1",
+      "gate": "G5",
+      "kind": "Task"
     }
-  ]
+  }
 }

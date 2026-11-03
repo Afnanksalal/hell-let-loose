@@ -1,19 +1,17 @@
-# Multiplayer and social play
+# Cooperative play
 
-**Confirmed target:** at least two friends, desired maximum six to eight. [Original source](../../sources/chat-01.md).
+The target is 2 to 8 players. Start network validation with two clients before expanding party size.
 
-## Social proposals
+Players share information, trade objects and help each other escape. Physical interactions under consideration include carrying an oversized item together, boosting a friend onto a shelf, pulling a wagon and operating a mechanism from several positions.
 
-Trade toys, point, wave, laugh, cry, dance, hug and cooperate on oversized objects. Examples: carry together, boost onto shelves, form a climbing stack, pull a wagon or operate a large mechanism.
+## Communication
 
-Voice candidate: teammates hear understandable speech while adults hear babbling. Proximity effects create night tension. Rare demons may imitate voices or disrupt communication. Emotes/pings offer non-microphone participation. Integrated voice is not confirmed.
+Voice, emotes and pings should support coordination. A draft voice treatment lets teammates hear speech while adults hear babbling. Proximity effects and occasional supernatural interference need testing so they do not obscure necessary information. A microphone should not be the only way to contribute.
 
-Among Us influence need not require a player traitor. Earlier ideas used rare doubles, possessions, hallucinations or false clues as cooperative mysteries.
+Deception can come from a supernatural double, possessed character or false clue. A mandatory player-traitor role is outside the current design.
 
-## Persistence and lobby proposal
+## Campaign ownership
 
-The host chooses a campaign save; players retain personal unlocks. A nursery lobby could use climbing into cribs as readiness. Campaign and character save separation is a proposal.
+The current architecture candidate separates a host-owned campaign from personal character unlocks. The host selects the world; visitors retain their own progression. A nursery lobby could use getting into bed as a readiness signal.
 
-## Open
-
-How do eight friends share turns and spotlight? Can different ages join? Who chooses major story outcomes? How do absent players catch up? How are rewards shared? Resolve these before final networking/progression design.
+Resolve major story votes, missed chapters, reward sharing and different character ages before finalizing persistence. Disconnects must preserve agreed checkpoints rather than silently losing a session.

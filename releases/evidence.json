@@ -1,21 +1,23 @@
 {
   "version": "0.1.0",
-  "kind": "knowledge-base",
+  "kind": "repository-foundation",
   "gate": "G0",
   "criteria": [
     {
-      "id": "knowledge-base",
+      "id": "repository-layout",
       "status": "pass",
       "evidence": [
         "README.md",
-        "docs/continuity.md"
+        "game/README.md",
+        "assets/README.md",
+        "tests/README.md"
       ]
     },
     {
-      "id": "source-and-decision-boundaries",
+      "id": "design-decisions",
       "status": "pass",
       "evidence": [
-        "sources/README.md",
+        "docs/vision.md",
         "decisions/register.md"
       ]
     },
@@ -24,13 +26,25 @@
       "status": "pass",
       "evidence": [
         ".github/workflows/checks.yml",
-        "tests/test_repository_checks.py"
+        "https://github.com/Afnanksalal/hell-let-loose/pull/11/checks"
       ]
     },
     {
       "id": "public-repository-and-board",
-      "status": "pending",
-      "evidence": []
+      "status": "pass",
+      "evidence": [
+        "https://github.com/Afnanksalal/hell-let-loose",
+        "https://github.com/users/Afnanksalal/projects/3",
+        ".github/rulesets/main.json"
+      ]
+    },
+    {
+      "id": "rights-and-contributions",
+      "status": "pass",
+      "evidence": [
+        "LICENSE",
+        "CONTRIBUTING.md"
+      ]
     }
   ]
 }

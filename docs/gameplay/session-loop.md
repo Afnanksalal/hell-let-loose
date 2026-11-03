@@ -1,22 +1,16 @@
 # Session loop
 
-**Confirmed:** approximately 20–30 minutes; daytime social/story care, sunset escape and assembly, nighttime demon battles. [Sources](../../sources/README.md).
+The target session lasts roughly 20 to 30 minutes and includes a small story arc: an incident, preparation, confrontation and consequence.
 
-## Earlier pacing proposal
-
-| Phase | Illustrative time | Purpose |
+| Phase | Activity | Persistent result |
 | --- | --- | --- |
-| Day | 9 minutes | Care, relationships, dynamic events, clues, preparation |
-| Sunset | 2 minutes | Escape and regroup |
-| Night | 11 minutes | Investigation, objectives, encounters |
-| Dawn | 3 minutes | Return, evidence, rewards, consequences |
+| Day | Care, social encounters, investigation and preparation | Needs, items, clues, relationships and suspicion |
+| Sunset | Escape, distractions and regrouping | Starting conditions for the night's mission |
+| Night | Investigation, battles, puzzles and cooperative objectives | Rewards, story choices and neighborhood changes |
+| Dawn | Return home and hide evidence | Household reactions and next-day restrictions |
 
-These numbers are not commitments. Pokémon-inspired battles may change pacing. Not every night needs a boss; investigation, puzzles, stealth and smaller encounters can vary the arc.
+An early pacing study allocated 9 minutes to day, 2 to sunset, 11 to night and 3 to dawn. These are starting values for testing. Battle format and party size may require different timing.
 
-## Proposed dawn outcomes
+The return home should carry some tension even after winning a battle. An undetected return might improve trust; a noisy one might bring extra supervision. Failure should produce a new problem to solve without automatically wiping every reward.
 
-Perfect return reduces suspicion and grants a bonus. Messy return changes parental monitoring. Failure creates restrictions next session without erasing all progress. The return should be a gameplay challenge rather than only a cutscene.
-
-## First playable connection
-
-A day clue, resource or mistake meaningfully changes the night; a night outcome changes the next day. Prove this connection before treating the full feature list as a production commitment.
+The first prototype must demonstrate a daytime choice changing the night and a nighttime outcome changing the next day.

@@ -1,11 +1,12 @@
-# Release procedure
+# Publishing a release
 
-1. Open an issue describing release scope and gate. Do not call a design baseline a playable game.
-2. In a topic branch, update VERSION, CHANGELOG.md, releases/evidence.json and the version's release notes.
-3. Supply evidence for every criterion defined for the selected gate. Update the gate criteria through review if scope legitimately changes, never silently waive them.
-4. Run repository checks, checker tests and `python scripts/check_repository.py --release`. For future playable releases, add actual build/playtest evidence before passing their gates.
-5. Merge the release PR after required CI passes.
-6. The owner manually runs **Release** on main. The workflow rechecks evidence and version, refuses an existing tag, tags that exact commit and publishes notes. It does not run on arbitrary tag pushes.
-7. Verify the release page and evidence links. Update issues/Project status. If a release is wrong, publish a corrective patch; do not move a published tag.
+1. Open an issue for the release scope and gate.
+2. In a topic branch, update VERSION, CHANGELOG.md, the versioned release notes and releases/evidence.json.
+3. Supply evidence for every criterion in the selected gate. Higher milestones need actual build and playtest records.
+4. Open a release PR. Check version consistency and evidence during review; required repository checks must pass.
+5. Merge the PR, then request the Release workflow on main from the owner account.
+6. Verify the release page, tag and evidence links. Update the issue and project status.
 
-The release workflow's write token exists only in its publish job. CI otherwise has read-only contents permissions. There are no account-level secrets in the repository. G0 needs repository evidence; higher gates need real implementation evidence, not just a populated form.
+The workflow validates the manifest and refuses a pending criterion or an existing tag. A failed publication can leave a tag without release notes; recover by inspecting that tag and publishing notes for its verified commit, never by moving it. Corrections to a published release use a new patch version.
+
+CI has read-only repository permissions. Only the release publish job receives contents-write permission. The repository currently has no playable release or game-build workflow.

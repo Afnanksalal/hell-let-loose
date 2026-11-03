@@ -1,42 +1,43 @@
 # Hell Let Loose
 
-A cooperative supernatural comedy game about customizable babies living ordinary lives by day and secretly battling demons at night. Colorful FNF-inspired art, Pokémon-inspired battles, funny consequences, strong narration and a generational story define the current direction.
+A cooperative supernatural comedy game about babies with a secret life after bedtime.
 
-**Stage:** concept development. **Working title:** Hell Let Loose. **Updated:** 2026-11-04.
+During the day, take care of yourself, make friends, sneak around the house and get into trouble. At night, escape your crib and meet the others to deal with whatever has crawled into the neighborhood. The things you ate, stole or broke earlier can change your abilities and the trouble waiting outside. Get home before your parents wake up.
 
-## Start here
+## Development status
 
-1. [Current vision](docs/vision.md): confirmed creative direction.
-2. [Linear continuity](docs/continuity.md): session, campaign and lifetime sequence.
-3. [Decision register](decisions/register.md): confirmed, proposed, superseded and open choices.
-4. [Source index](sources/README.md): two shared chats and the current conversation.
+The game is in pre-production. This repository will contain the complete game source, original assets and development tools. Godot is the selected engine. The design documents and development workflow are in place; the first runnable project has not been added yet.
 
-## Knowledge map
+The current target is cooperative play for 2 to 8 players, with sessions of roughly 20 to 30 minutes. Battle pacing, networking and customization scope are the next design decisions. The [implementation plan](planning/implementation-plan.md) maps them to the project board.
 
-| Area | Documents |
+## The game
+
+- Daytime care, exploration and small household heists affect the night's adventure.
+- Battles use distinct moves, status effects and cooperative tactics. The turn format is still being evaluated.
+- Character customization covers appearance and personality, with equipment and behavior affecting play.
+- An authored mystery runs through the neighborhood's changing households and supernatural incidents.
+- Over the campaign, the children grow up and begin forgetting who they were. Their story ends as a new generation appears.
+
+The visual direction uses bold outlines, expressive faces, exaggerated poses and strong color. Comedy comes from the characters and their decisions; the mystery gives those decisions consequences.
+
+## Repository layout
+
+| Directory | Contents |
 | --- | --- |
-| Gameplay | [Session loop](docs/gameplay/session-loop.md), [daytime and stealth](docs/gameplay/daytime-and-stealth.md), [battles](docs/gameplay/battles.md), [powers and items](docs/gameplay/powers-and-items.md), [customization](docs/gameplay/customization.md), [multiplayer](docs/gameplay/multiplayer.md) |
-| Story | [World and campaign](docs/narrative/world-and-campaign.md), [story director](docs/narrative/story-director.md), [tone and narration](docs/narrative/tone-and-narration.md), [episode examples](docs/narrative/episode-examples.md) |
-| Presentation | [Art direction](docs/art/direction.md), [audio and interface](docs/art/audio-and-interface.md) |
-| Progression | [Aging and generations](docs/progression/aging-and-generations.md), [economy and unlocks](docs/progression/economy-and-unlocks.md) |
-| Production | [Technical candidates](docs/production/technical-candidates.md), [roadmap](docs/production/roadmap.md), [open questions and risks](docs/production/open-questions.md) |
+| [game](game/README.md) | Runtime code, scenes, game data and interface implementation |
+| [assets](assets/README.md) | Original character, environment, interface and audio assets |
+| [tests](tests/README.md) | Future runtime, integration and gameplay tests |
+| [docs](docs/README.md) | Game design, architecture decisions and development process |
+| [planning](planning/README.md) | Initial backlog and GitHub tracking references |
+| [releases](releases/README.md) | Release criteria, evidence and notes |
+| [.github](.github/README.md) | Checks, issue templates and repository rules |
 
-## Status and maintenance
+## Development
 
-**Confirmed direction** means the user stated it. **Proposal** means an assistant suggested it; it is not approved canon. **Example** illustrates a possibility. **Superseded** records earlier direction replaced by a later user instruction. Saving an idea does not approve every detail.
+Start with the [game overview](docs/vision.md), [session sequence](docs/continuity.md) and [decision register](decisions/register.md). The [roadmap](docs/production/roadmap.md) describes what needs to be proven before a playable release. [Godot architecture](docs/architecture/godot.md) defines the project boundary. The exact engine version, renderer and language will be pinned with the first runnable project.
 
-Read [AGENTS.md](AGENTS.md) before future work. Changes belong in the relevant topic, [decision register](decisions/register.md) and [changelog](CHANGELOG.md).
+[Project board](https://github.com/users/Afnanksalal/projects/3) Ã‚Â· [Issues](https://github.com/Afnanksalal/hell-let-loose/issues) Ã‚Â· [Checks](https://github.com/Afnanksalal/hell-let-loose/actions/workflows/checks.yml)
 
-This repository is local project memory, not account-wide ChatGPT memory. It contains no game implementation. The public GitHub repository and Project are linked below. Source summaries are not complete verbatim transcripts.
+## Feedback and rights
 
-## Development workflow
-
-[Contributing](CONTRIBUTING.md) · [Version control](docs/process/version-control.md) · [Project board](docs/process/project-board.md) · [Release gates](docs/process/release-gates.md) · [Release procedure](docs/process/releasing.md)
-
-Run `python scripts/check_repository.py` and `python -m unittest discover -s tests -v` before opening a PR. VERSION identifies the planned baseline; a tag/release exists only after the gated release workflow is requested.
-
-## GitHub
-
-[Public repository](https://github.com/Afnanksalal/hell-let-loose) · [Development project](https://github.com/users/Afnanksalal/projects/3) · [Issues](https://github.com/Afnanksalal/hell-let-loose/issues) · [Checks](https://github.com/Afnanksalal/hell-let-loose/actions/workflows/checks.yml)
-
-The Project has eight initial issues, priority/area/gate fields and Foundation, Prototype and Vertical slice milestones. No release has been published yet.
+Bug reports and design feedback are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting work. This is a public, source-available project with all rights reserved. You may study it and draw inspiration for independently created work; reuse, redistribution and sale of repository material require permission. See [LICENSE](LICENSE) for the terms and the GitHub platform exception.

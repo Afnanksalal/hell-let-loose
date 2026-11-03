@@ -1,13 +1,19 @@
-# Technical candidates
+# Godot architecture evaluation
 
-**All technical choices are proposals. No engine is selected.** [Earlier source](../../sources/chat-01.md).
+Godot is the selected engine. [Project architecture](../architecture/godot.md) defines the repository boundary and the configuration choices needed at bootstrap. The exact version, renderer, language and test runner remain open.
 
-Earlier candidates: Godot 4, GDScript/C#, 2D rendering, ENet, versioned JSON/binary saves, data-driven event graphs, Aseprite/LibreSprite and built-in audio or FMOD. Pixel-art tooling advice predates FNF and requires reconsideration.
+## Shared state
 
-An authoritative listen-server could own world state, NPC behavior, inventory, combat outcomes, missions and event selection. Clients handle input, UI, animation/audio and appropriate movement prediction/interpolation. Synchronize important objects rather than every household physics object. Battle authority must follow the chosen battle rules.
+An authoritative host is the networking candidate. It owns inventory changes, NPC decisions, combat results, event selection and campaign changes. Clients send actions and present the resulting state. Movement prediction depends on the movement model; battles need explicit ordering and validation rules.
 
-NPC routines could use behavior trees or hierarchical state machines. Day and night share entities, inventory, statuses and persistent state.
+Synchronize important interactive objects before attempting a fully networked household physics simulation. Day and night read the same campaign state.
 
-Save chapter, missions, locations, households, relationships, corruption and choices separately from personal unlocks. Version saves for migration. Disconnect proposal: temporarily sleeping/limited AI player; checkpoint/return to lobby after host loss. Host migration is not promised.
+## Content and persistence
 
-Matchmaking/accounts, PostgreSQL, Docker and later dedicated servers are historical options, not infrastructure to provision now. Decide camera, battles, art pipeline and playable scope before treating the old stack as a commitment.
+Evaluate Godot Resources for moves, items, character parts and event definitions. Definitions need stable identifiers and validation. Keep save data separate from scene instances so content and save formats can evolve independently.
+
+Campaign data includes chapters, missions, households, relationships, corruption and choices. Personal collections have separate ownership. Define interruption checkpoints and version migration before relying on persistence.
+
+## Dependencies
+
+Choose networking transport, test runner and any editor extensions through their issues. A disconnected player or lost host must have a documented result. Dedicated services and host migration need demonstrated requirements before implementation.

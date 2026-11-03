@@ -1,9 +1,11 @@
 # Audio and interface
 
-**Confirmed:** good narration is a priority. [Source](../../sources/current-conversation.md).
+Household ambience, toy sounds and small character reactions establish daytime scale. At night, familiar sounds can return as static, distorted lullabies or unsettling environmental cues. Reusing a melody can connect a location or object to a memory later in the campaign.
 
-Earlier audio proposals contrast soft melodies, household ambience, toys and baby sounds with static, eerie atmospheres and distorted lullabies at night. Recurring melodies could connect phases and memory themes. Music genre, voice casting, recorded/generated speech and localization remain open. FNF art does not commit the soundtrack to its music or add rhythm timing.
+Distinct move sounds should help players follow a battle without overwhelming conversation. Narration needs subtitles and a predictable place in the sound mix. Music style, casting, recording workflow and localization are undecided.
 
-Use distinct move sounds and controlled overlapping effects for readability. Integrated proximity voice and adult-heard babbling remain proposals. See [multiplayer](../gameplay/multiplayer.md) and [narration](../narrative/tone-and-narration.md).
+## Interface
 
-Earlier UI concept: a playful storybook-like day interface shifts toward an eerie night interface. Day shows needs/suspicion; night shows battle/team/objectives. Candidate screens: main menu, nursery lobby, character creator, inventory, story journal, progression and results. These are not designed or implemented screens.
+Daytime information includes needs, household context and suspicion. Nighttime emphasizes moves, team condition and the current objective. Both should use the same visual vocabulary so the transition feels like one game.
+
+Planned screen areas include character creation, party setup, inventory, a story journal, progression and session results. The nursery lobby remains a design study. Input, focus order, text readability and communication without a microphone belong in the interface plan from the start.

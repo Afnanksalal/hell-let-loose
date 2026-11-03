@@ -1,27 +1,23 @@
-# Project knowledge base instructions
+# Repository instructions
 
-## Read before working
+## Project context
 
-Read README.md, docs/vision.md, docs/continuity.md and decisions/register.md first. Then read relevant topic files. Read sources/current-conversation.md before changing art, combat or customization direction.
+This repository is the home of the full game: runtime code, original assets, tests and documentation. It is currently in pre-production. Read README.md, docs/vision.md, docs/continuity.md and decisions/register.md before changing the design. Read the relevant subsystem document before implementing it.
 
-## Authority and continuity
+## Design and writing
 
-- Latest direct user instructions override earlier direction. User direction overrides assistant proposals.
-- Label confirmed direction, proposal, example, superseded and open choices explicitly.
-- Never turn assistant suggestions into approved requirements merely because they are saved here.
-- Current art is colorful FNF-inspired cartoon art. Original pixel art is superseded.
-- Pokémon-like battles are current direction. Exact turn structure is undecided. Neither earlier real-time combat nor later simultaneous planning is approved.
-- Preserve massive customization, funny plots, narration and absurd behavior-derived powers as priorities.
-- Keep session time, campaign progression and aging separate. Preserve adulthood, forgetting identity and new-generation continuity.
-- The milk/diarrhea/diaper example and 30-second cooldown are illustrative, not specifications.
-- Do not invent source quotes or claim summaries are full transcript exports.
+- Describe the game's own behavior. Keep reference titles and comparison-based pitches out of public descriptions, topics, issues and design documents.
+- Write plain technical and design prose. Avoid promotional claims, chat transcripts and repeated commentary about how a document was produced.
+- Preserve agreed direction, but keep unresolved choices in the decision register. Draft lore and example moves do not become requirements by being documented.
+- Preserve the daytime/nighttime consequence loop, broad customization, tactical battles, comic narration and the adulthood/memory/generation arc.
+- Treat specific joke attacks, cooldowns, age bands and example episodes as drafts until accepted.
 
-## Maintenance
+## Development
 
-Update the relevant topic, decision register and changelog when direction changes; link its source. Preserve old ideas in sources/history rather than leaving conflicting current instructions. Validate relative Markdown links. Keep one primary home per topic, using links for related concepts.
+Read CONTRIBUTING.md and docs/process/version-control.md. Use issue-linked branches and pull requests. Main requires passing Repository checks and resolved review conversations. Do not add a build badge or claim a playable feature before an actual build exists.
 
-This is a concept knowledge base. Do not select an engine, start game implementation, publish a remote or copy reference-game assets unless requested. No agent delegation is required by these instructions.
+Keep runtime implementation under game/, original assets under assets/ and game tests under tests/. Godot is selected. Pin its version, renderer and language before adding runtime dependencies. Place project.godot at the repository root when bootstrapping; use docs/architecture/godot.md for resource boundaries. Add tools only when development requires them; do not generate a scripts directory or placeholder checker suite.
 
-## Repository workflow
+Update relevant documentation and the decision register when a choice changes. Keep release evidence current. Do not publish a release without its applicable gate. Respect LICENSE; this is source-available with all rights reserved, not FOSS. Do not import code or assets without compatible permission and provenance.
 
-Read CONTRIBUTING.md and docs/process/version-control.md before editing. Use issue-linked branches and PRs after bootstrap. Run repository checks and their tests. Read docs/process/release-gates.md before any release claim. Public publishing of this repository and its project governance was explicitly requested on 2026-11-04; game implementation remains outside scope.
+Maintain workflow dependencies manually. Do not add Dependabot configuration or enable its automation.

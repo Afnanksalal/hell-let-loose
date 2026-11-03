@@ -1,26 +1,26 @@
 name: Design decision
-description: Resolve an open choice without assuming a brainstorm is approved
+description: Resolve a gameplay, presentation or architecture choice
 title: "[Decision] "
 labels: [needs-decision]
 body:
   - type: textarea
     id: question
     attributes:
-      label: Decision and source
-      description: What must be decided and what user direction constrains it?
+      label: Decision
+      description: State the choice and link the relevant design document.
     validations:
       required: true
   - type: textarea
     id: options
     attributes:
       label: Options and tradeoffs
-      description: Include consequences, prototype needs and the proposed recommendation.
+      description: Include consequences and the evidence needed to choose.
     validations:
       required: true
   - type: textarea
     id: acceptance
     attributes:
-      label: Decision acceptance
-      description: Who decides, what evidence is needed and which documents change?
+      label: Acceptance criteria
+      description: Define the decision outcome and the documents or prototype it needs.
     validations:
       required: true

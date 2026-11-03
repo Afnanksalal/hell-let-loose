@@ -1,29 +1,27 @@
 # World and campaign
 
-**Confirmed:** strong story, funny plots, supernatural neighborhood mystery, Stranger Things inspiration and a generational arc. All named lore below is assistant proposal. [Sources](../../sources/README.md).
+Status: draft setting and chapter outline. Names and mythology are awaiting selection.
 
-## Draft mythology
+The neighborhood sits above a sealed gateway to an underworld. Adults fail to perceive most of its activity, while children can see what is happening. The group discovers that other generations protected the same place before them.
 
-Hollowbrook sits above a sealed underworld gateway. Halloween strengthens the First Cry, an ancient entity underneath. Adults cannot perceive most supernatural creatures; babies can. The Cradlebound are generations of childhood guardians secretly protecting their families.
+Working names are Hollowbrook for the town, Cradlebound for the guardians and the First Cry for an ancient entity. These provide a draft vocabulary, not settled canon.
 
-## Draft locations and world changes
+## Locations
 
-Homes, playground/headquarters, daycare, grocery shop, graveyard, forest, hospital, abandoned mansion and sewers. Earlier advice favored a handcrafted connected neighborhood with variable events, interiors and enemy placements. Failed hauntings might abandon houses; protected families might open daytime opportunities.
+Homes, a playground, daycare, shops, a graveyard, woods, hospital, mansion and sewers provide connected domestic and supernatural spaces. A compact authored neighborhood can change through events, household reactions and mission outcomes. A failed haunting might leave a house abandoned; helping a family might open a new opportunity.
 
-Expansion names: Graveyard District, Forgotten Woods, Neon District and the Underworld. They are not promised maps.
-
-## Earlier chapter proposal
+## Chapter study
 
 1. The First Night: discover abilities and form the group.
-2. Things That Go Bump: investigate toys, objects and dreams.
-3. The Forgotten Guardians: discover earlier guardians and adult blindness.
-4. The Town Below: descend as the boundary collapses.
-5. The First Cry: confront the curse and choose the world's future.
+2. Things That Go Bump: investigate toys, missing objects and dreams.
+3. The Forgotten Guardians: uncover earlier generations and the adults' blindness.
+4. The Town Below: explore beneath the neighborhood as the boundary weakens.
+5. The First Cry: confront the source of the curse.
 
-The later aging direction may restructure this outline; no infancy-only finale is settled.
+The aging arc may require a different chapter structure. The ending must account for growing up and forgetting, not stop at an unrelated final boss.
 
-## Enemy and mission proposals
+## Encounters
 
-Peekers hide beneath furniture; Stuffed disguise themselves as plush toys; the Nanny induces enchanted sleep; the Hollow One manipulates darkness. Other enemies react to noise/light, possess objects, mimic NPCs or separate the squad.
+Enemy studies include shadows hiding under furniture, possessed plush toys, a caretaker who induces sleep and a creature that manipulates darkness. Behavior can respond to light, sound, isolation or household objects.
 
-Mission types: haunting investigation, portal containment, possessed playground, stalking-demon hunt, rescue, ritual defense and clue-based ambush. Distinct story mechanics should keep nights from becoming identical waves.
+Mission studies include investigating a haunting, containing portals, cleansing a playground, tracking a dangerous creature, rescuing someone and defending a ritual. Distinct objectives should keep the night from becoming repeated enemy waves.

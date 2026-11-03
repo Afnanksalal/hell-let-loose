@@ -1,25 +1,25 @@
-# Aging and generations
+# Aging, memory and generations
 
-**Confirmed user direction:** grow toward 18/adulthood, slowly forget identity, conclude the original generation and introduce new babies. Expanding maps, customization and difficulty accompany the journey. [Source](../../sources/chat-02.md).
+The campaign follows the group toward adulthood. Their abilities and relationships change as the neighborhood expands and its threats become more aware of them. Near adulthood, they gradually forget their childhood identity.
 
-## Proposed stages
+## Aging rules
 
-Infancy 0–2, toddlerhood 3–5, childhood 6–10, adolescence 11–17, adulthood 18+. These bands are assistant suggestions. Milestone-, season- or player-controlled aging was proposed rather than a forced short countdown.
+Milestones, seasons and player-controlled advancement are options. Avoid treating every short session as an automatic age step before its effects on party continuity are understood.
 
-Threats might escalate from hauntings to organized demon attacks as the guardians become known. Age-specific mechanics remain open.
+A draft stage model groups infancy, toddlerhood, childhood, adolescence and adulthood. The early bands were 0 to 2, 3 to 5, 6 to 10, 11 to 17 and 18 onward. These are planning categories, not a fixed progression schedule.
 
-## Memory proposal
+## Remembering
 
-Earn memories of the first escape, first demon, headquarters and squad adventures. Later, toy names, nicknames, locations and keepsakes become unfamiliar. Photos, recordings and old items might restore fragments. Narrative forgetting should be distinguished from deleting achievements, cosmetics or access; preserving an account archive was recommended.
+Memories can refer to the first escape, a defeated creature, the group's headquarters or a mission with particular friends. As memories fade, an old toy, photograph or recording may help reconstruct them.
 
-## Proposed finale
+Narrative forgetting and account progression are separate design problems. Determine what happens to moves, cosmetic collections, achievements and world access before implementing an ending that removes them.
 
-The Last Night returns the group to their original playground. Recover objects and reconstruct identity. Earlier assistant lore suggests the First Cry feeds on forgotten childhood memories and waits for guardians to grow up. The battle might use campaign memories and keepsakes, not damage alone.
+## Finale studies
 
-Candidate endings: preserve memories, sacrifice them to seal the underworld or restart the cycle. None is selected. The user requested an endgame, not these particular endings.
+One finale returns the group to its original playground to recover objects and reconstruct its history. Draft mythology connects the ancient entity to forgotten memories. Possible endings preserve those memories, sacrifice them to close the gateway or continue the cycle. No ending is selected.
 
-## New generation
+## The next generation
 
-Possible inheritance: changed neighborhoods, hidden weapons, photos, messages, legends and former characters as adult NPCs retaining instincts. A sequel might import choices. Draft sequel subtitles “The Forgotten Generation” and “The Last Childhood” are historical brainstorms.
+New babies inherit a world altered by earlier choices. Objects, places, messages and former characters can carry continuity. Former characters appearing as adults with residual habits is one option.
 
-Decide first-game versus sequel placement, mixed-age parties, progression triggers, what survives and how a generation ends without making customization investment feel erased.
+Decide whether this occurs within the first game or a sequel, how world state transfers and how friends at different ages play together.

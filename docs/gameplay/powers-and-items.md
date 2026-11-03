@@ -1,25 +1,23 @@
-# Behavior powers and equipment
+# Powers and household items
 
-**Confirmed creative intent:** ordinary baby behavior can become an absurd useful nighttime superpower. [Source](../../sources/current-conversation.md).
+Ordinary daytime behavior can become an absurd nighttime advantage. The effect should make enough sense for players to plan around it while leaving room for surprises.
 
-The user's example: excessive daytime milk might cause an explosive digestive skill or throwable stinky diapers at night. The user explicitly called it an example. Neither the ability nor “every 30 seconds” is a requirement, particularly while battle turns are unresolved.
+One example is a baby who drinks too much milk and later gains a digestive attack or a supply of stinky diapers. This establishes the tone; it does not settle a move, cooldown or balance value.
 
-## Proposed move sources
+## Draft behavior effects
 
-Personality + equipment + today's behavior could determine moves. Make effects readable enough for intentional planning while keeping occasional surprises. Not every care action should become punishment.
-
-| Day incident | Assistant example | Possible complication |
+| Daytime behavior | Nighttime effect to test | Possible complication |
 | --- | --- | --- |
-| Refuse nap | Overtired Overdrive: extra action | Sleep afterward unless helped |
-| Steal perfume | Fancy Baby: confusion | Trackable scent |
-| Love blanket | Emotional Support Fortress | Tantrum if separated |
-| Eat carrots | Reveal hidden enemies | Loud announcements |
-| Befriend dog | Rescue/distraction assist | Wants fetch at a bad moment |
+| Skip a nap | Extra action from overtired energy | Falls asleep afterward |
+| Steal perfume | Confuse enemies with a dramatic entrance | Leaves a trackable scent |
+| Become attached to a blanket | Protect the group with it | Panic when separated |
+| Eat many carrots | Spot concealed threats | Announces discoveries too loudly |
+| Befriend a dog | Call for help or a distraction | Dog wants to play at an awkward moment |
 
-## Earlier dual-use items
+These are design examples. Decide which effects are temporary, how players discover them and whether they can stack before writing the move data.
 
-Baby monitor: hear parents / scan paranormal signals. Rattle: play / stun or shockwave. Blanket: comfort/hide / shield or glide. Milk: food / healing or anti-corruption splash. Toy car: racing / scout, distraction or transport. Diaper: hygiene / slowing cloud. Flashlight/nightlight: explore / reveal invisible threats.
+## Objects with two uses
 
-Draft equipment names: Rattle of Ruin, Holy Rattle, Holy Milk, Super Soaker Exorcist, Milk Blaster, Blanket of Protection, Diaper Grenade, Pacifier Boomerang, Toy Hammer, Bubble Gun and Teddy Guardian. These are historical ideas, not canon or statistics.
+A monitor can listen for parents or detect a haunting. A rattle can be a toy or a stun weapon. A blanket provides comfort or protection. Milk can restore needs or become a healing item. A toy car can race, scout or carry an object. A flashlight can reveal hidden enemies.
 
-Open: temporary versus permanent effects, discovery versus visible recipes, friendly fire, combinations, dawn reset, inventory limits and interaction with aging.
+Other equipment studies include a pacifier boomerang, toy hammer, bubble trap and protective teddy. Upgrades should add useful behavior rather than only increase damage. Inventory limits and reset rules remain open.

@@ -11,3 +11,14 @@ work/
 
 __pycache__/
 *.py[cod]
+
+node_modules/
+build/
+dist/
+.godot/
+lychee/
+
+# Godot generated import/export data
+*.translation
+export.cfg
+export_credentials.cfg
