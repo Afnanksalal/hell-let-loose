@@ -4,7 +4,7 @@ Each release candidate needs evidence tied to the commit being released. [Gate d
 
 | Gate | Required evidence | Status |
 | --- | --- | --- |
-| G0 Foundation | Repository structure, design decisions, contribution process, passing checks and project tracking | Being finalized |
+| G0 Foundation | Repository structure, design decisions, contribution process, passing checks and project tracking | Foundation configured; publication requires the release workflow |
 | G1 Prototype | Battle format demonstrated, customization combination, behavior-derived move, two-client shared state and connected phase loop | Not started |
 | G2 Slice | Complete session, authored episode and narration, representative original art, save/load and reconnect, external playtest | Not started |
 | G3 Alpha | Agreed feature scope, target party scale, aging scope, save migration and no progression blockers | Not started |

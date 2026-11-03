@@ -2,6 +2,8 @@
 
 ## 0.1.0 (unreleased)
 
+- Selected Godot and documented the runtime architecture and bootstrap requirements.
+- Expanded planning into linked epics and implementation tasks.
 - Established the game repository layout for runtime source, scenes, data, interface code, original assets and tests.
 - Documented the session loop, battle questions, customization, neighborhood stories and generational progression.
 - Added the project board, initial issues, milestones and pull-request workflow.

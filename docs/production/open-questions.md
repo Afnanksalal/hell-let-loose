@@ -9,7 +9,7 @@
 | Presentation | Camera, animation method, narration frequency and audience rating |
 | Aging | Progression triggers, mixed-age parties and mechanical effects of forgetting |
 | Generations | Placement of the next generation and inherited state |
-| Production | Engine, supported platforms, team capacity and first playable scope |
+| Production | Godot version, renderer, language, platforms, team capacity and first playable scope |
 | Naming | Final title before distribution |
 
 Daytime risks becoming a chore before the night begins. Battles risk becoming repetitive or slow with a large party. Narrative state can become contradictory if branches lack explicit dependencies. Customization and aging multiply the animation and content workload.

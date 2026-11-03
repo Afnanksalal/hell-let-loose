@@ -61,15 +61,15 @@
     ]
   },
   {
-    "title": "Decide engine, camera and multiplayer architecture",
+    "title": "Define Godot shared-state architecture and two-client validation",
     "area": "Multiplayer",
     "priority": "P1",
     "gate": "G1",
     "milestone": "Prototype",
     "acceptance": [
-      "Evaluate engines against battle pacing, art pipeline and development capacity.",
-      "Define authoritative state, campaign ownership and interruption behavior.",
-      "Record the selected architecture and two-client validation plan."
+      "Use Godot; compare authority and transport choices within that engine.",
+      "Define host ownership, replication and save boundaries.",
+      "Document two-client validation and remaining bootstrap configuration."
     ]
   },
   {

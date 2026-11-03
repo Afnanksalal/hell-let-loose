@@ -23,8 +23,11 @@
     },
     {
       "id": "repository-checks",
-      "status": "pending",
-      "evidence": []
+      "status": "pass",
+      "evidence": [
+        ".github/workflows/checks.yml",
+        "https://github.com/Afnanksalal/hell-let-loose/pull/11/checks"
+      ]
     },
     {
       "id": "public-repository-and-board",

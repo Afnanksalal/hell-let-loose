@@ -16,7 +16,7 @@ This repository is the home of the full game: runtime code, original assets, tes
 
 Read CONTRIBUTING.md and docs/process/version-control.md. Use issue-linked branches and pull requests. Main requires passing Repository checks and resolved review conversations. Do not add a build badge or claim a playable feature before an actual build exists.
 
-Keep runtime implementation under game/, original assets under assets/ and game tests under tests/. Select the engine through a recorded decision before adding its project files. Add tools only when development requires them; do not generate a scripts directory or placeholder checker suite.
+Keep runtime implementation under game/, original assets under assets/ and game tests under tests/. Godot is selected. Pin its version, renderer and language before adding runtime dependencies. Place project.godot at the repository root when bootstrapping; use docs/architecture/godot.md for resource boundaries. Add tools only when development requires them; do not generate a scripts directory or placeholder checker suite.
 
 Update relevant documentation and the decision register when a choice changes. Keep release evidence current. Do not publish a release without its applicable gate. Respect LICENSE; this is source-available with all rights reserved, not FOSS. Do not import code or assets without compatible permission and provenance.
 

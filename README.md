@@ -6,9 +6,9 @@ During the day, take care of yourself, make friends, sneak around the house and 
 
 ## Development status
 
-The game is in pre-production. This repository will contain the complete game source, original assets and development tools. The design documents and repository workflow are in place; a playable build and engine integration have not been added yet.
+The game is in pre-production. This repository will contain the complete game source, original assets and development tools. Godot is the selected engine. The design documents and development workflow are in place; the first runnable project has not been added yet.
 
-The current target is cooperative play for 2 to 8 players, with sessions of roughly 20 to 30 minutes. Battle pacing, networking and customization scope are the next design decisions.
+The current target is cooperative play for 2 to 8 players, with sessions of roughly 20 to 30 minutes. Battle pacing, networking and customization scope are the next design decisions. The [implementation plan](planning/implementation-plan.md) maps them to the project board.
 
 ## The game
 
@@ -34,9 +34,9 @@ The visual direction uses bold outlines, expressive faces, exaggerated poses and
 
 ## Development
 
-Start with the [game overview](docs/vision.md), [session sequence](docs/continuity.md) and [decision register](decisions/register.md). The [roadmap](docs/production/roadmap.md) describes what needs to be proven before a playable release. Engine-specific build instructions will accompany the first runtime implementation.
+Start with the [game overview](docs/vision.md), [session sequence](docs/continuity.md) and [decision register](decisions/register.md). The [roadmap](docs/production/roadmap.md) describes what needs to be proven before a playable release. [Godot architecture](docs/architecture/godot.md) defines the project boundary. The exact engine version, renderer and language will be pinned with the first runnable project.
 
-[Project board](https://github.com/users/Afnanksalal/projects/3) · [Issues](https://github.com/Afnanksalal/hell-let-loose/issues) · [Checks](https://github.com/Afnanksalal/hell-let-loose/actions/workflows/checks.yml)
+[Project board](https://github.com/users/Afnanksalal/projects/3) Ã‚Â· [Issues](https://github.com/Afnanksalal/hell-let-loose/issues) Ã‚Â· [Checks](https://github.com/Afnanksalal/hell-let-loose/actions/workflows/checks.yml)
 
 ## Feedback and rights
 

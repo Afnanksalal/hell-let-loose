@@ -1,3 +1,3 @@
 # Scenes
 
-World locations, encounter staging and reusable scene composition belong here. Scene files will follow the selected engine's resource model. Character art and environment source assets belong in assets/.
+World locations, encounter staging and reusable scene composition belong here. Use Godot scenes for composition and reusable encounters. Save text scenes as .tscn where practical. Character art and environment source assets belong in assets/.

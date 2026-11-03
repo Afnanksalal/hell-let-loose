@@ -12,3 +12,7 @@ The [vision](vision.md) describes the game; [continuity](continuity.md) connects
 | Process | [Version control](process/version-control.md), [project board](process/project-board.md), [release gates](process/release-gates.md), [release procedure](process/releasing.md) |
 
 Design documents describe intended behavior. Runtime documentation will identify the implemented version and include build and test instructions when the engine is integrated.
+
+[Godot architecture](architecture/godot.md) describes project organization. [Acceptance and evidence](process/definition-of-done.md) defines completion for design, runtime and content tasks.
+
+The [design brief](design-brief.md) records the core requirements.

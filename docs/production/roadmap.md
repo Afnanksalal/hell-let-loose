@@ -4,7 +4,7 @@ The first playable milestone must connect a daytime decision to a nighttime enco
 
 ## Pre-production
 
-Resolve battle pacing, customization layering, camera and engine selection. Write one episode with branching outcomes. Define behavior-to-power rules and the state that carries between phases.
+Resolve battle pacing, customization layering, camera and Godot configuration. Write one episode with branching outcomes. Define behavior-to-power rules and the state that carries between phases.
 
 ## Prototype
 

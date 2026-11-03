@@ -1,5 +1,7 @@
 # Planning
 
-The [project board](https://github.com/users/Afnanksalal/projects/3) tracks live work. [Initial backlog](backlog.json) contains the original issue scopes; [GitHub references](github.json) links the seeded issues and milestones.
+The [implementation plan](implementation-plan.md) maps the design to eight epics and their native GitHub sub-issues. Each epic document includes acceptance criteria and dependencies.
 
-Foundation covers repository setup. Prototype resolves and proves the core mechanics. Vertical slice evaluates a complete authored session. Dates and detailed production scope will follow those results.
+The [project board](https://github.com/users/Afnanksalal/projects/3) holds live status, priority, area and gate fields. [GitHub references](github.json) records issue identifiers. The initial [backlog](backlog.json) remains a seed record rather than a duplicate live status tracker.
+
+Godot is selected. Exact configuration is part of bootstrap; feature counts, production dates and unselected mechanics remain open until decided.

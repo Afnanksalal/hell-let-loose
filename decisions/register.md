@@ -18,7 +18,7 @@ Accepted direction guides implementation. Open choices require a recorded outcom
 | D012 | Accepted | Household stealth uses readable routines, distractions and physical comedy. |
 | D013 | Accepted | Daytime behavior can produce absurd nighttime powers; individual moves remain drafts. |
 | D014 | Draft | Setting names, mythology and chapter outline. |
-| D015 | Open | Engine, camera, networking stack and production scope. |
+| D015 | Open | Godot version, renderer, language, camera, networking stack and production scope. |
 | D016 | Open | Aging rules, ending and next-generation placement. |
 | D017 | Accepted | One repository contains the full game codebase, assets, tests and documentation. |
 | D018 | Accepted | Public GitHub repository, issue board, pull-request workflow and release gates. |
@@ -26,6 +26,8 @@ Accepted direction guides implementation. Open choices require a recorded outcom
 | D020 | Accepted | Public writing describes the game directly without comparison-based branding. |
 | D021 | Accepted | All rights reserved; viewing and inspiration do not grant redistribution or sale rights. |
 | D022 | Accepted | Standard workflow checks; no standalone repository-check scripts or generated test suite. |
+
+| D023 | Accepted | Godot is the game engine. Exact version, renderer and language will be pinned during project bootstrap. |
 
 ## Recording a decision
 
