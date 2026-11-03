@@ -1,21 +1,19 @@
-# Dynamic storytelling
+# Story events and world state
 
-**Confirmed:** dynamic story tasks rather than a static list, with strong storytelling. [Sources](../../sources/README.md).
+A written main mystery supplies the campaign's reveals and resolution. Branching neighborhood incidents respond to the group's choices between those milestones.
 
-## Proposed architecture
+## Event selection
 
-A written main mystery supplies reveals and payoffs. Authored branching neighborhood episodes react to shared state. A rule-driven director selects eligible events through dependencies, pacing, weighted variation and continuity.
+A rule-based director can select authored events using prerequisites, pacing, weights and cooldowns. Relevant state includes households, relationships, suspicion, inventory, needs, corruption and previous outcomes. Day and night read and update the same state.
 
-Inputs: households, relationships, suspicion, needs, inventory, past choices, corruption, chapter and threat. Outcomes update the same state across day, night and later sessions.
+An event definition needs participants, locations, objectives, outcome conditions and persistent effects. The content pipeline also needs localization identifiers and recovery behavior when a player disconnects or an objective becomes unavailable.
 
-An event might define prerequisites, participants, locations, objectives, success/failure conditions, branches, state effects, priority, cooldowns, localization and recovery. This is a candidate content contract, not a production schema.
+## Example
 
-## Missing teddy example
+A missing teddy begins with an empty shelf. Investigation finds marks at a window. At night, the toy appears in a playground with signs of possession. A battle, cleansing ritual or discovery about the toy can resolve the incident differently. Ignoring it can change the household's later condition.
 
-An empty shelf allows investigation, ignoring or asking friends for help. Window marks lead to a possessed teddy at night. Combat, cleansing or discovering a protective purpose could resolve it. Choices change future corruption and story flags.
+## Authority
 
-## Earlier AI recommendation
+Authored rules determine mission outcomes and persistent state. Generated flavor text is an optional production question, not part of the required runtime. It must not determine authoritative combat or progression.
 
-Authored event graphs determine authoritative outcomes. Optional LLM flavor dialogue or descriptions could vary presentation. Live LLM use and AI-generated missions are not requirements. The recommendation aimed to protect continuity, balancing, cost and multiplayer reliability.
-
-Open: minimum variety, contradictory flags, balancing authored plot with mischief, failure that advances stories and sharing multiple personal arcs within a session.
+Before implementation, define how event flags avoid contradictions, how failure advances a story and how several personal arcs share one session.

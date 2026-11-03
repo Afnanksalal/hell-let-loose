@@ -1,21 +1,17 @@
-# Version control policy
+# Version control
 
-## Branches and merges
+Main holds reviewed work. Use short-lived issue-linked branches and squash merge pull requests. Delete merged topic branches. Revert through a new PR rather than rewriting published history.
 
-`main` holds reviewed work. Use short-lived issue-linked branches; avoid a permanent develop branch. Squash merge PRs, delete merged branches and do not force-push or delete main. Revert through a new PR rather than rewriting published history.
-
-Main requires a pull request, current passing `Repository checks`, resolved review conversations and linear history. No bypass actors are configured. Zero required external approvals supports a solo maintainer while retaining an auditable PR and CI gate.
-
-Suggested commits: `docs(area): change`, `feat(area): change`, `fix(area): change`, `chore(area): change`, `test(area): change`. CI does not rewrite or enforce historical commit messages.
+Main requires passing Repository checks against current main, resolved review conversations and linear history. Force pushes and deletion are blocked. No bypass actor is configured. External approvals are not required while there is one maintainer; the PR and CI record still applies.
 
 ## Versions
 
-VERSION is the source of truth. Use SemVer-shaped versions: major for incompatible supported game/save contracts after 1.0, minor for meaningful pre-1.0 milestones, patch for corrections to the current baseline. Pre-1.0 compatibility is described explicitly in release notes.
+VERSION identifies a candidate baseline. Use major.minor.patch numbers, with release notes describing compatibility before 1.0. Version 0.1.0 establishes repository structure, not a playable game. Tags use `v` followed by VERSION and identify a commit on main. Published version tags cannot be moved or deleted.
 
-0.1.0 is reserved for the knowledge-base foundation, not a playable build. Later prototype and slice versions require their own gates. A version file alone is not a published release. Release tags are `v` followed by VERSION and must identify a commit on main. Do not move published tags; issue a new patch release.
+The [release procedure](releasing.md) separates editing a version file from publishing a release. Runtime and save-format compatibility will be specified when those interfaces exist.
 
-## Ownership and public contents
+## Repository contents
 
-Public visibility is not an open-source license grant. No license was chosen by the owner. Reference games guide qualities; their assets are not included. Track future asset provenance before a playable release. No credentials or shared-chat account sessions belong here.
+Commit editable source and required project configuration. Exclude engine caches, local settings, credentials and build output. Choose asset-specific large-file handling with the production pipeline.
 
-The initial public push bootstraps the repository. After protection is enabled, all changes follow PRs. See [release process](releasing.md).
+The repository is public and source-available under [LICENSE](../../LICENSE). Redistribution and sale require permission. Third-party code and assets retain their own identified terms.

@@ -10,29 +10,53 @@ jobs:
   verify:
     name: Verify release gates
     if: github.ref == 'refs/heads/main' && github.actor == github.repository_owner
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+      - uses: DavidAnson/markdownlint-cli2-action@696eb3f2509270d7b882d2aa68347bc676e7af34 # v25.0.0
         with:
-          python-version: '3.12'
-      - run: python scripts/check_repository.py --release
-      - run: python -m unittest discover -s tests -v
+          globs: '**/*.md'
+      - uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: --offline --no-progress './**/*.md'
+          output: /tmp/lychee-report.md
+      - name: Version and gate evidence
+        shell: python
+        run: |
+          import json, re
+          from pathlib import Path
+          version = Path('VERSION').read_text().strip()
+          assert re.fullmatch(r'(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)', version), 'Invalid version'
+          gates = json.loads(Path('releases/gates.json').read_text())
+          data = json.loads(Path('releases/evidence.json').read_text())
+          assert data['version'] == version, 'Version mismatch'
+          expected = gates[data['gate']]
+          kinds = dict(G0='repository-foundation', G1='prototype', G2='vertical-slice', G3='alpha', G4='beta', G5='game')
+          assert kinds[data['gate']] == data['kind'], 'Release kind differs from gate'
+          criteria = data['criteria']
+          assert len(criteria) == len(expected) and {c['id'] for c in criteria} == set(expected), 'Incomplete criteria'
+          for criterion in criteria:
+              assert criterion['status'] == 'pass', 'Unpassed criterion: ' + criterion['id']
+              assert criterion['evidence'], 'Missing evidence: ' + criterion['id']
+              for item in criterion['evidence']:
+                  assert item.startswith('https://') or Path(item).is_file(), 'Missing evidence target'
+          assert Path(f'releases/{version}.md').is_file(), 'Missing release notes'
+          assert version in Path('CHANGELOG.md').read_text(), 'Missing changelog entry'
   publish:
-    name: Publish verified baseline
+    name: Publish release
     needs: verify
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 5
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
-      - name: Publish new version at verified commit
+      - name: Publish verified commit
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
@@ -41,9 +65,8 @@ jobs:
           VERSION=$(cat VERSION)
           TAG="v$VERSION"
           if gh api "repos/$GH_REPO/git/ref/tags/$TAG" >/dev/null 2>&1; then
-            echo "Tag already exists; publish a new version instead."
+            echo 'Tag already exists. Inspect it before attempting recovery.'
             exit 1
           fi
           gh api "repos/$GH_REPO/git/refs" -f ref="refs/tags/$TAG" -f sha="$GITHUB_SHA"
           gh release create "$TAG" --verify-tag --title "$TAG" --notes-file "releases/$VERSION.md"
-

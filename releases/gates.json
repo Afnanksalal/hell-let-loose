@@ -1,9 +1,10 @@
 {
   "G0": [
-    "knowledge-base",
-    "source-and-decision-boundaries",
+    "repository-layout",
+    "design-decisions",
     "repository-checks",
-    "public-repository-and-board"
+    "public-repository-and-board",
+    "rights-and-contributions"
   ],
   "G1": [
     "battle-prototype",

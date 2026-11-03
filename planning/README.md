@@ -1,5 +1,5 @@
 # Planning
 
-[Backlog seed](backlog.json) defines initial issues, acceptance criteria, priorities and gates. The live GitHub Project and issue links are in the root README. Update live issue status rather than duplicating it in static Markdown.
+The [project board](https://github.com/users/Afnanksalal/projects/3) tracks live work. [Initial backlog](backlog.json) contains the original issue scopes; [GitHub references](github.json) links the seeded issues and milestones.
 
-This backlog scopes future decisions and prototypes; it does not authorize starting game implementation or adopt draft mechanics.
+Foundation covers repository setup. Prototype resolves and proves the core mechanics. Vertical slice evaluates a complete authored session. Dates and detailed production scope will follow those results.

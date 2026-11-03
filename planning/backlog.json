@@ -6,10 +6,10 @@
     "gate": "G0",
     "milestone": "Foundation",
     "acceptance": [
-      "Public repository contains the linked knowledge base and process documents.",
-      "GitHub Project is linked and seeded with scoped issues.",
-      "Repository checks pass remotely; main enforces PR and status checks.",
-      "G0 evidence links point to verified repository and board."
+      "Public repository contains game-source and asset directories, design documents and the development process.",
+      "Project board links scoped issues with priorities and release gates.",
+      "Markdown and link checks pass on GitHub; main enforces PR and status checks.",
+      "Rights notice and contribution policy match the project ownership terms."
     ]
   },
   {
@@ -19,9 +19,9 @@
     "gate": "G1",
     "milestone": "Prototype",
     "acceptance": [
-      "Compare sequential turns, simultaneous planning and another reference-compatible option.",
-      "Describe two-player and eight-player participation, idle handling and exploration transition.",
-      "Record owner decision; do not assume the previous assistant proposal is approved."
+      "Compare sequential turns and simultaneous planning for small and large parties.",
+      "Describe idle handling, coordination and transitions between exploration and encounters.",
+      "Record the selected format and its consequences in the design documents."
     ]
   },
   {
@@ -31,9 +31,9 @@
     "gate": "G1",
     "milestone": "Prototype",
     "acceptance": [
-      "List first customization dimensions and how outfit/body combinations stay compatible.",
-      "Define original FNF-inspired shapes, expressions, animation and readability targets.",
-      "Record camera and production-method options for decision, not silent adoption."
+      "Define initial customization dimensions and compatible outfit/body combinations.",
+      "Specify original character shapes, expressions, animation and readability targets.",
+      "Evaluate camera and animation production methods before asset production."
     ]
   },
   {
@@ -43,9 +43,9 @@
     "gate": "G1",
     "milestone": "Prototype",
     "acceptance": [
-      "Specify predictability, duration, stacking and night/day reset options.",
-      "Provide three illustrative effects with tactical choices and comic consequences.",
-      "Keep the milk example and 30-second cooldown uncommitted."
+      "Define discovery, duration, stacking and reset behavior for daytime effects.",
+      "Provide three draft powers with tactical choices and comic consequences.",
+      "Separate illustrative move ideas from accepted balance values."
     ]
   },
   {
@@ -56,8 +56,8 @@
     "milestone": "Prototype",
     "acceptance": [
       "Connect a daytime choice, sunset complication, battle and next-day consequence.",
-      "Include narrator placement, alternate outcomes and multiplayer choices.",
-      "Keep draft lore names provisional until approved."
+      "Place narration and alternate outcomes around player choices.",
+      "Settle the episode scope and identify any unresolved setting details."
     ]
   },
   {
@@ -67,9 +67,9 @@
     "gate": "G1",
     "milestone": "Prototype",
     "acceptance": [
-      "Evaluate candidates against selected battles, art pipeline and team constraints.",
-      "Define authoritative state, campaign ownership and disconnect strategy.",
-      "Record the selection and a two-client validation plan before implementation."
+      "Evaluate engines against battle pacing, art pipeline and development capacity.",
+      "Define authoritative state, campaign ownership and interruption behavior.",
+      "Record the selected architecture and two-client validation plan."
     ]
   },
   {
@@ -79,9 +79,9 @@
     "gate": "G2",
     "milestone": "Vertical slice",
     "acceptance": [
-      "Describe aging triggers, mixed-age parties and what forgetting changes.",
-      "Separate narrative memory loss from account unlock deletion.",
-      "Identify first-game versus sequel boundary without locking assistant endings."
+      "Describe aging triggers, mixed-age parties and the effects of forgetting.",
+      "Separate narrative memory loss from player collection persistence.",
+      "Decide which generational content belongs in the first game."
     ]
   },
   {
@@ -91,9 +91,9 @@
     "gate": "G2",
     "milestone": "Vertical slice",
     "acceptance": [
-      "Set a feasible slice scope after the battle, art and technology decisions.",
-      "Define a complete session and external playtest acceptance targets.",
-      "Specify actual build, save/load and reconnect evidence for G2."
+      "Scope a complete session after the battle, art and architecture decisions.",
+      "Define external playtest acceptance targets.",
+      "Specify build, save/load and reconnect evidence needed for G2."
     ]
   }
 ]

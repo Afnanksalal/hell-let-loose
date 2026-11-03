@@ -1,26 +1,25 @@
-# Massive customization
+# Character customization
 
-**Confirmed priority:** MASSIVE customization, with colorful expressive identities. [Source](../../sources/current-conversation.md).
+Players should be able to make a character their friends recognize immediately. The customization system needs breadth, expressive acting and compatible combinations rather than a large list of interchangeable hats.
 
-## Proposed dimensions
+## Scope under evaluation
 
-| Area | Options to explore |
+| Area | Options |
 | --- | --- |
-| Appearance | Body shapes, skin tones, hair, eyes and faces |
-| Clothing | Onesies, pajamas, diapers, costumes, hats, footwear and layers |
-| Accessories | Pacifiers, toys, helmets and wearable oddities |
-| Performance | Voice, movement style, emotes, entrances and expressions |
-| Personality | Dramatic, sneaky, charming, clingy, fearless or grumpy |
-| Battle | Move loadouts, gadgets, toy modifications and supernatural specialties |
-| Personal space | Nursery, crib, bedroom, stash and shared headquarters |
-| Relationships | Friends, rivals, trusted pets and family connections |
+| Appearance | Body shape, skin, hair, eyes and face |
+| Clothing | Pajamas, onesies, diapers, costumes, footwear and layers |
+| Accessories | Pacifiers, helmets and carried objects |
+| Acting | Voice, expressions, emotes, entrances and movement |
+| Personality | Habits that change dialogue, reactions and opportunities |
+| Equipment | Toys, modifications, gadgets and move selection |
+| Personal space | Crib, nursery, bedroom and shared headquarters |
 
-These categories support the request but are not all approved features. Earlier Bruiser, Tinkerer, Mystic and Sneak archetypes were flexible starting playstyles, not permanent classes.
+Personality and equipment may affect play. Cosmetic choices should not all require separate balance rules. Relationships can provide further identity through friends, rivals and trusted pets.
 
-The identity goal is recognizing “our dramatic perfume thief with the saucepan helmet.” Animation and dialogue can express choices without every cosmetic granting power.
+## Art and data requirements
 
-## Production questions
+Define layering order, body compatibility, clipping rules, color handling and animation reuse before producing a large wardrobe. Preview tools must show a complete character in representative poses. Save data should identify selected parts without depending on asset file order.
 
-Layering/clipping, body compatibility, rigs, animation reuse, color masks, silhouette readability, unlocks, preview tools and save compatibility need a plan. Prioritize expressive combinations before promising an item count.
+An early class study used frontline, gadget, supernatural and stealth specialties. These remain optional starting playstyles rather than permanent classes.
 
-Decide what adapts across ages, what is character-specific and what survives into an account archive or next generation. Keeping account unlocks was an assistant recommendation, not an approved system.
+Decide which items adapt as characters age, which belong to a character and which remain in the player's collection after a generation ends.

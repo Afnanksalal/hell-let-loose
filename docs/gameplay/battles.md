@@ -1,25 +1,23 @@
-# Battles
+# Battle design
 
-**Confirmed direction:** Pokémon-like battles. [Latest source](../../sources/current-conversation.md). Exact mechanics are not selected.
+Battles are built around distinct moves, status effects, enemy behavior and team combinations. The format has not been selected.
 
-## Qualities to explore
+## Format evaluation
 
-Readable move choices, memorable attacks, status effects, enemy identities, team combinations and dramatic introductions fit the reference. Creature collecting, a type chart, four-move limits and one-on-one duels were not explicitly requested.
+Compare sequential turns with simultaneous action planning. Evaluate how long players wait, how they coordinate, what happens when someone is idle and how an encounter returns to exploration. Test both a small party and the intended maximum before committing to a format.
 
-## Current assistant candidate
+An action-planning round is one candidate: players choose moves together, then a short animated sequence resolves them. This requires explicit rules for conflicting actions and information available before commitment.
 
-Players plan actions simultaneously, then a short cartoon round resolves. Personality supplies dependable moves, equipment supplies options and today's behavior supplies temporary powers or quirks. This is a proposal, not an approved specification.
+## Moves and cooperation
 
-Resolve planning time, idle players, coordination, action conflicts, encounter transitions and eight-player participation before committing. Avoid making six people watch one long turn.
+Personality, equipment and the day's behavior are potential sources of moves. Examples of cooperation include revealing a hidden enemy before trapping it, distracting a boss while another player disables its protection, or defending a ritual instead of simply dealing damage.
 
-## Earlier drafts
+Move effects need clear animation and sound. Large parties should remain readable, with each player able to understand their own contribution.
 
-Earlier chats suggested real-time/twin-stick combat, directional attacks, dodges and gadgets. Conflicting loadouts included basic attack/movement/two skills/ultimate and primary weapon/secondary gadget/one supernatural power. Neither is authoritative after the newer direction.
+## Defeat and difficulty
 
-Cooperative examples may still transfer: reveal a hidden demon, trap it and push it into a ward; distract a boss while a teammate disables its power; defend a ritual rather than only deal damage.
+A draft downed state uses a loud tantrum that attracts danger. Teammates revive the baby through comfort or an item. The selected battle format will determine how this works. A total defeat can create a story consequence the next morning.
 
-Downed-state drafts included helpless crawling or a loud Tantrum State, revived through milk, pacifiers or comfort. Total defeat causes a next-day story consequence. Adapt these to the chosen format.
+Scale enemy tactics, objective complexity and coordination demands before relying on extra health. Recovery opportunities and optional challenges may help pacing, but adjustments should not make successful play feel punished.
 
-## Scaling proposal
-
-Adjust enemy behavior, objectives, simultaneous threats and coordination, not only health. Earlier bands were 2–3, 4–5 and 6–8 players. A subtle performance director might offer recovery or optional challenges without punishing success. None of these rules is finalized.
+Older movement-focused combat sketches are retained as unselected alternatives. Loadout size, action resources, targeting, friendly fire and cooldowns need decisions.

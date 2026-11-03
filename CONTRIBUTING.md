@@ -1,26 +1,25 @@
 # Contributing
 
-Read [AGENTS.md](AGENTS.md), the [vision](docs/vision.md) and [decision register](decisions/register.md) before proposing changes. This is currently a design repository, not a playable game.
+This is a source-available project with all rights reserved. Read [LICENSE](LICENSE) before reusing repository material. Feedback and bug reports are welcome; arrange permission with the maintainer before preparing code or asset contributions.
 
-## Working process
+## Issues
 
-1. Open an issue with the problem, scope and acceptance criteria. Use a design decision issue for unsettled mechanics.
-2. Move it through the [project workflow](docs/process/project-board.md). Implementation starts only when its scope is agreed.
-3. Branch from current main: `docs/123-topic`, `feat/123-topic`, `fix/123-topic` or `chore/123-topic`.
-4. Make focused commits such as `docs(story): clarify generational ending`. Never commit credentials, personal exports or unlicensed reference assets.
-5. Update the primary topic, decision register and changelog where direction changes. Distinguish user direction from proposals.
-6. Run `python scripts/check_repository.py` and `python -m unittest discover -s tests -v`.
-7. Open a PR using the template, link its issue and include validation evidence. Required checks must pass; resolve conversations before squash merge.
-8. Close the linked issue, mark it Done and delete the merged topic branch.
+Check existing issues first. For a defect, include the affected version, reproduction steps, expected behavior and actual result. For a design change, describe the problem, options and tradeoffs. Keep reference-game comparisons out of issue titles and public pitches; explain the desired behavior directly.
 
-Use PRs even as a solo maintainer: self-review is allowed; a second-person approval is not required because that would lock a solo repository. Future collaborators can add review requirements deliberately.
+## Authorized development
 
-## Definition of ready
+1. Read the relevant design document and check whether the decision is settled.
+2. Agree on a bounded issue with acceptance criteria and dependencies.
+3. Branch from current main using `docs/123-topic`, `feat/123-topic`, `fix/123-topic` or `chore/123-topic`.
+4. Keep commits focused. Update the affected documentation and decision record when behavior changes.
+5. Open a pull request with its issue and validation evidence. Checks must pass and review conversations must be resolved before squash merge.
 
-An issue has a bounded outcome, acceptance criteria, area, priority, milestone and dependencies. Unknown design choices are explicitly listed. Ready for implementation does not mean every brainstorm is approved.
+Commit subjects should state the change, for example `fix(save): preserve household state on reconnect`. Never commit credentials, imported assets without permission or generated engine caches.
 
-## Definition of done
+## Validation
 
-Acceptance criteria met; appropriate checks/evidence linked; docs and decisions current; no unresolved blocking comments. A closed planning issue does not prove a game feature exists.
+GitHub Actions checks Markdown style and local links. With Node.js available, the equivalent style check is `npx markdownlint-cli2@0.21.0 "**/*.md"`. Runtime build and test commands will be documented with engine integration.
 
-See [version control](docs/process/version-control.md), [release gates](docs/process/release-gates.md) and [release procedure](docs/process/releasing.md).
+An issue is ready when its outcome, acceptance criteria and dependencies are clear. It is done when the work meets those criteria, its evidence is linked and the relevant PR or decision is accepted. Closing a design task does not establish that a game feature is implemented.
+
+See [workflow](docs/process/project-board.md), [version control](docs/process/version-control.md) and [release gates](docs/process/release-gates.md).

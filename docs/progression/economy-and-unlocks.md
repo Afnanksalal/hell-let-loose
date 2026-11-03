@@ -1,21 +1,19 @@
-# Economy and unlocks
+# Rewards and unlocks
 
-**Confirmed:** expanding maps, customization and difficulty, with a generational endgame. [Sources](../../sources/README.md).
+Progression develops the character, neighborhood and main mystery. New choices should matter more than steadily inflating damage values.
 
-Earlier progression split: character moves/gadgets/cosmetics; neighborhood access/relationships/corruption; narrative discoveries and chapters. These should expand options rather than assume endless numerical grinding.
+## Resource study
 
-## Draft resources
-
-| Resource | Acquisition proposal | Purpose proposal |
+| Resource | Source | Intended use |
 | --- | --- | --- |
-| Toy Parts | Household exploration | Crafting |
-| Nightmare Essence | Demon encounters | Supernatural upgrades |
-| Story Tokens | Story milestones | Content access |
-| Stickers | Challenges | Cosmetics |
-| Trust | Positive interactions | Household privileges |
+| Toy parts | Household exploration | Equipment crafting |
+| Nightmare essence | Supernatural encounters | Ability upgrades |
+| Story tokens | Narrative milestones | Story access |
+| Stickers | Challenges | Cosmetic collection |
+| Trust | Household interactions | Privileges and access |
 
-The earlier assistant suggested simplifying to Toy Parts and Nightmare Essence for gameplay, with stickers as a collection. No economy is approved.
+The economy is unselected. Start by testing whether toy parts and nightmare essence cover gameplay needs, with stickers as a collection. Additional currencies need a clear reason to exist.
 
-Upgrade examples introduce functions: rattle shockwaves, scouting toy cars, transport or distractions. The newer battle direction may change their implementation.
+Equipment upgrades can introduce functions such as a rattle shockwave, scouting vehicle or object transport. Character unlocks can add moves and interactions. Neighborhood rewards can change locations, relationships or corruption.
 
-Separate day effects, character progression, campaign state and account unlocks. Decide which reset, adapt, archive or transfer between generations. Replay proposals included event combinations, household conditions, alternate resolutions, hazards, seasonal events and gear. Massive customization is a priority, not a literal infinite-asset promise.
+Separate temporary day effects, character progress, campaign state and persistent player collections. Record what carries across ages or generations. Replay variety can come from different event combinations, household conditions and resolutions rather than only repeating rewards.

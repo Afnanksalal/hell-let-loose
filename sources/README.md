@@ -1,13 +1,5 @@
-# Sources
+# Design records
 
-| Record | Scope |
-| --- | --- |
-| [Chat one](chat-01.md) | Detailed design plan and continuations |
-| [Chat two](chat-02.md) | Original premise, overlapping plan and later generational extension |
-| [Current conversation](current-conversation.md) | Art correction, latest creative brief, brainstorming and repository request |
+The repository documents the current design brief and its unresolved choices. [Requirements](requirements.md) provides the agreed direction; [design decisions](../decisions/register.md) records its status in a compact form.
 
-Both shared chats were read using browser accessibility content during this Codex conversation. These records are structured summaries, not full verbatim exports. The original URLs remain references for exact wording. Some code blocks and early assistant content were not fully exposed; do not claim exhaustive transcript capture.
-
-The [original continuity text](archive/initial-continuity.txt) is retained solely as migration input. Current topic files supersede it.
-
-Authority: latest user statement > earlier user statement > assistant proposal. Shared assistant text records brainstorms, not approvals.
+Private working discussions and migration notes are not part of the public documentation. Their useful design details are expressed in the subsystem documents, with draft mechanics and examples identified where relevant.

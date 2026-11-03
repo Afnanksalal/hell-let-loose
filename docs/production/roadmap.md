@@ -1,26 +1,23 @@
-# Scope and roadmap
+# Development roadmap
 
-**Proposals only:** no schedule or implementation authorization. [Sources](../../sources/README.md).
+The first playable milestone must connect a daytime decision to a nighttime encounter and a next-day consequence. Build that with a small group before expanding content or party size.
 
-## First playable proof
+## Pre-production
 
-A small group enjoys a complete day → escape → night encounter → return → changed next day. Demonstrate the comedy/art identity, a customization choice, behavior power and story consequence.
+Resolve battle pacing, customization layering, camera and engine selection. Write one episode with branching outcomes. Define behavior-to-power rules and the state that carries between phases.
 
-Earlier slice counts: 2–4 players, one street, 2–3 homes, two playstyles, two missions, one boss, 15–25 events, basic customization, parent schedules, limited persistence and a prologue. Revisit around the new battle direction.
+## Prototype
 
-## Earlier milestone sequence
+Implement movement, a small household, interactions and shared state for two clients. Add the escape, one encounter and the return. Demonstrate a customization combination and a behavior-derived move. Attach observations to the prototype gate rather than relying on a feature checklist alone.
 
-1. Multiplayer nursery: movement, interactions, objects and synchronized phase transition.
-2. Daytime simulation: needs, parents, suspicion and events.
-3. Night gameplay: battle, gadgets, objectives, boss and dawn; complete a full session.
-4. Narrative and progression: persistence, event director and varied consecutive sessions.
-5. Content and scale: environments, demons, campaign and stable eight-player play.
-6. Playtests/release: balance, onboarding, synchronization and performance.
+## Vertical slice
 
-The battle format and customization art pipeline now need explicit early exploration; this is a migration recommendation, not a user-approved reordered roadmap.
+Produce a complete session with representative art, narration, save/load and reconnect behavior. Test with people who did not build it. Scope the neighborhood, move set and episode count after the prototype results.
 
-Full vision counts—15+ missions, 5+ bosses, 100+ events, expanded homes, adaptive AI and five chapters—were examples. Aging adds substantial content beyond that outline.
+An earlier scope study used one street, 2 to 3 houses, two playstyles, two missions and one boss. Those counts are a starting estimate, not a content commitment.
 
-Old estimates of a 3–5 month experienced-team slice and 12–24+ month release were speculation, not commitments for this user. Team and budget are unknown.
+## Later production
 
-Earlier commercial proposals: premium Windows/Steam first, controller support, demo, possible handheld support, optional cosmetics/expansions and avoiding pay-to-win/player-base splits. Illustrative ₹399–₹699 pricing is not approved. No publishing action is requested.
+Expand the authored event library and campaign, validate the target party size, implement agreed aging and memory behavior, and measure performance on named hardware. Alpha, beta and release criteria are in [release gates](../process/release-gates.md).
+
+Dates, staffing, pricing and distribution plans have not been set. A planning baseline is not a playable release.

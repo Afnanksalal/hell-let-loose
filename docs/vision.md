@@ -1,25 +1,21 @@
-# Current vision
+# Game overview
 
-**Confirmed user direction.** Sources: [original chat](../sources/chat-01.md), [detailed chat](../sources/chat-02.md), [current conversation](../sources/current-conversation.md).
+Hell Let Loose follows a group of babies who protect their neighborhood while the adults sleep. Daytime combines care, friendships, exploration and household mischief. After bedtime, the group escapes to investigate hauntings and fight supernatural creatures.
 
-Friends create babies, live a social story-filled day, escape their cribs at sunset and battle demons while their parents sleep. Daytime behavior creates nighttime powers and complications. Nighttime outcomes shape future days.
+## Day and night
 
-## Creative priorities
+Actions persist across the two phases. A stolen flashlight can reveal an enemy. A broken vase can leave a parent watching the hallway. Befriending a dog can provide help later. Food, rest and comfort can affect a baby's powers as well as their ability to sneak out.
 
-- MASSIVE customization and expressive personal identities.
-- Pokémon-like battles, with exact mechanics still open.
-- Funny plots, strong storytelling and good narration.
-- Colorful FNF-inspired cartoon art, replacing the original pixel-art direction.
-- Robbery Bob-like feel-good mischief and sneaking.
-- Cooperative monster/story adventure inspired by Fortnite's zombie story mode. Calling this specifically Save the World is an unconfirmed interpretation.
-- Stranger Things-inspired neighborhood mysteries and supernatural atmosphere.
-- Ordinary baby behavior becoming absurd powers. The milk example illustrates this, not an approved move list.
-- Characters growing toward 18/adulthood, forgetting identity, ending a generation and giving way to new babies.
+The day needs to be enjoyable on its own. Story events, social play and small heists should create decisions rather than a recurring list of chores. The night resolves some of those situations and introduces consequences for the following morning.
 
-## Original scale and influences
+## Characters and battles
 
-At least two players, desired maximum six to eight; sessions approximately 20–30 minutes. Earlier inspirations include Sims-style social simulation, Boss Baby absurdity, Avengers-like assembly, Among Us social chaos and Halloween.
+Extensive customization is a central requirement. Players should recognize each other through appearance, expressions, clothing, movement and habits. Equipment and daytime behavior provide tactical choices without making every cosmetic a stat upgrade.
 
-References express desired qualities. They do not require rhythm gameplay, a player traitor, creature collecting, a specific camera or copied characters and assets. Team, budget and implementation platform have not been supplied.
+Battles emphasize readable moves, status effects and cooperation. Their exact turn structure remains open. The target is 2 to 8 players and a session length of roughly 20 to 30 minutes; encounter pacing must be tested against both.
 
-The central connection is an ordinary daytime choice producing a funny tactical or story payoff at night. A written mystery can connect those moments; the generational ending can give long-term attachment emotional weight.
+## Story and presentation
+
+An authored neighborhood mystery connects smaller branching incidents. The humor comes from tiny characters taking absurd responsibilities seriously. Bold cartoon shapes, exaggerated acting and strong colors carry that tone. Narration adds context and callbacks while leaving room for friends to talk.
+
+Across the campaign, characters grow toward adulthood and begin forgetting their childhood identity. Their generation reaches an ending, and new children inherit the changed world. Aging rules, memory mechanics and the boundary between a new campaign and a sequel remain open.

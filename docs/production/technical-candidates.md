@@ -1,13 +1,21 @@
-# Technical candidates
+# Architecture evaluation
 
-**All technical choices are proposals. No engine is selected.** [Earlier source](../../sources/chat-01.md).
+No engine or runtime stack has been selected. The decision depends on battle format, character animation, asset layering, networking and the available development capacity.
 
-Earlier candidates: Godot 4, GDScript/C#, 2D rendering, ENet, versioned JSON/binary saves, data-driven event graphs, Aseprite/LibreSprite and built-in audio or FMOD. Pixel-art tooling advice predates FNF and requires reconsideration.
+## Candidate stack
 
-An authoritative listen-server could own world state, NPC behavior, inventory, combat outcomes, missions and event selection. Clients handle input, UI, animation/audio and appropriate movement prediction/interpolation. Synchronize important objects rather than every household physics object. Battle authority must follow the chosen battle rules.
+Godot with a 2D renderer and GDScript or C# is one option. ENet, versioned JSON or binary saves, authored event graphs and the engine's audio tools would support an initial evaluation. Other choices remain open until compared against a small working experiment.
 
-NPC routines could use behavior trees or hierarchical state machines. Day and night share entities, inventory, statuses and persistent state.
+## Shared state
 
-Save chapter, missions, locations, households, relationships, corruption and choices separately from personal unlocks. Version saves for migration. Disconnect proposal: temporarily sleeping/limited AI player; checkpoint/return to lobby after host loss. Host migration is not promised.
+An authoritative host is the current networking candidate. It would own inventory, NPC decisions, combat results, event selection and campaign changes. Clients present input, animation, sound and interface state. Movement prediction and interpolation depend on the movement model.
 
-Matchmaking/accounts, PostgreSQL, Docker and later dedicated servers are historical options, not infrastructure to provision now. Decide camera, battles, art pipeline and playable scope before treating the old stack as a commitment.
+Synchronize important interactive objects before attempting a fully networked household physics simulation. Day and night should share entity and state definitions.
+
+## Persistence and interruption
+
+Campaign data includes chapter, completed missions, households, relationships, corruption and choices. Personal unlocks need separate ownership. Save versions require migration rules.
+
+A disconnected character might temporarily sleep or enter a limited controlled state. Host loss could checkpoint progress and return to the lobby. Host migration needs a separate decision and implementation budget.
+
+Matchmaking services, accounts, databases and dedicated servers should be added when a demonstrated requirement calls for them. Repository layout is described in [game](../../game/README.md).

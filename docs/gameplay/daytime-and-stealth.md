@@ -1,21 +1,17 @@
-# Daytime life and stealth
+# Daytime life and household stealth
 
-**Confirmed:** baby care, socializing, dynamic story tasks, funny plots and a Robbery Bob-like feel. [Sources](../../sources/README.md).
+Daytime combines caring for a baby with the freedom to investigate, visit friends and cause trouble. Needs should lead to decisions without demanding constant maintenance.
 
-## Earlier proposals
+## Needs under consideration
 
-Needs: hunger, energy, hygiene, comfort and parental trust. Eating can affect stamina, naps restore energy at a time cost, discomfort produces crying and hygiene can become a social or combat resource. These should create choices rather than repetitive maintenance.
+Hunger affects food choices and preparation. Rest affects energy. Hygiene and comfort affect interactions, crying and stealth. Parental trust changes how closely the household watches the baby. Exact meters and decay rates remain undecided.
 
-Activities: visit friends, trade toys, share clues, explore forbidden rooms, steal objects, distract adults, play pranks and cooperate. Different households offer different routes and resources.
+Players can trade toys, share clues, explore forbidden rooms, distract adults and steal useful objects. Different homes should offer different routes and resources. Activities can overlap so that friends cooperate rather than wait for one person's chores.
 
-Parents follow cooking, cleaning, work, check-in and sleep routines. Noise, theft, broken objects, evidence and late returns increase suspicion; positive interactions and cleanup reduce it. Parents remain understandable caring adults rather than cruel enemies.
+## Parents and suspicion
 
-## Stealth interpretation to explore
+Parents follow household routines such as cooking, cleaning, working and checking the nursery. Noise, missing items, breakages and late returns can change those routines. Cleanup and ordinary positive interactions can lower suspicion.
 
-Readable patrols, hiding places, near misses, toy distractions and slapstick escapes can create Robbery Bob-like pleasure. This is an interpretation, not a locked camera or control scheme.
+Stealth should be readable. Patrols, hiding places and distractions need clear feedback, with near misses and slapstick mistakes providing much of the comedy. Parents remain caring adults responding to what they can see.
 
-Sunset obstacles might include monitors, a sleeping parent, dog or babysitter. Early escapees can help friends. Daytime behavior should alter the escape, not only a meter.
-
-## Open questions
-
-How much freedom do babies have? How is time shared across houses? How do story episodes gate exploration? How does care remain entertaining after many sessions?
+At sunset, a monitor, sleeping parent, dog or babysitter can complicate an escape. Friends who get out early can return to help. What happened during the day should explain why an escape is easy or difficult.

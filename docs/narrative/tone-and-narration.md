@@ -1,19 +1,17 @@
 # Tone and narration
 
-**Confirmed:** funny plots, strong storytelling, good narration, colorful art and feel-good quality. [Source](../../sources/current-conversation.md).
+The characters take their responsibility seriously. Their size, equipment, habits and mistakes make the situation funny. The supernatural mystery still needs enough weight for discoveries and losses to matter.
 
-## Proposed approach
+Humor should vary. Physical mistakes, household near misses, conflicting personalities and callbacks can carry scenes alongside the occasional gross-out attack. A joke should not need a reference to another work to land.
 
-Take the supernatural mystery seriously enough for discoveries to matter. Let baby personalities, absurd equipment, friendships, teamwork and mistakes create comedy. Bodily-function humor is permitted by the example, but need not dominate every scene. Avoid depending on constant meme references.
+## Narration
 
-The forgetting arc gains weight because players have built a specific ridiculous identity over time.
+The narrator can give an entrance or discovery more gravity than it deserves. Short callbacks to earlier events work better than commentary on every action. Leave space for players to talk.
 
-## Narrator candidate
+One voice direction is formal and increasingly exasperated. A sample line: "The ritual required silence, courage, and a steady hand. Unfortunately, Oliver had found a saucepan."
 
-A solemn dramatic narrator becomes increasingly weary of the squad. Use entrances, discoveries, aftermath and callbacks without narrating every action or talking over friends. Voice, amount of recorded dialogue and character identity remain open.
+Voice casting, narration frequency, subtitle treatment and branching recording scope remain open. The final tone and audience rating need a decision before voice production.
 
-Assistant example: “The ritual required silence, courage, and a steady hand. Unfortunately, Oliver had found a saucepan.”
+## Emotional arc
 
-Earlier draft copy: “Good babies sleep at night. Bad babies save the world.” and “Bedtime is cancelled.” These are not approved taglines.
-
-An episode should offer a funny immediate problem, meaningful choices, satisfying resolution and one discovery that advances the wider mystery. The intended audience and precise horror/comedy balance remain undecided.
+Players spend the campaign building a particular identity: friends, habits, favorite objects and shared mistakes. Forgetting that identity near adulthood should refer back to those experiences. The ending needs to draw on what the group actually remembers doing.
