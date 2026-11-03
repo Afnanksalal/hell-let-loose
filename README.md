@@ -27,4 +27,16 @@ A cooperative supernatural comedy game about customizable babies living ordinary
 
 Read [AGENTS.md](AGENTS.md) before future work. Changes belong in the relevant topic, [decision register](decisions/register.md) and [changelog](CHANGELOG.md).
 
-This repository is local project memory, not account-wide ChatGPT memory. It contains no game implementation or configured remote. Source summaries are not complete verbatim transcripts.
+This repository is local project memory, not account-wide ChatGPT memory. It contains no game implementation. The public GitHub repository and Project are linked below. Source summaries are not complete verbatim transcripts.
+
+## Development workflow
+
+[Contributing](CONTRIBUTING.md) · [Version control](docs/process/version-control.md) · [Project board](docs/process/project-board.md) · [Release gates](docs/process/release-gates.md) · [Release procedure](docs/process/releasing.md)
+
+Run `python scripts/check_repository.py` and `python -m unittest discover -s tests -v` before opening a PR. VERSION identifies the planned baseline; a tag/release exists only after the gated release workflow is requested.
+
+## GitHub
+
+[Public repository](https://github.com/Afnanksalal/hell-let-loose) · [Development project](https://github.com/users/Afnanksalal/projects/3) · [Issues](https://github.com/Afnanksalal/hell-let-loose/issues) · [Checks](https://github.com/Afnanksalal/hell-let-loose/actions/workflows/checks.yml)
+
+The Project has eight initial issues, priority/area/gate fields and Foundation, Prototype and Vertical slice milestones. No release has been published yet.

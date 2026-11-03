@@ -1,0 +1,26 @@
+name: Design decision
+description: Resolve an open choice without assuming a brainstorm is approved
+title: "[Decision] "
+labels: [needs-decision]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Decision and source
+      description: What must be decided and what user direction constrains it?
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options and tradeoffs
+      description: Include consequences, prototype needs and the proposed recommendation.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Decision acceptance
+      description: Who decides, what evidence is needed and which documents change?
+    validations:
+      required: true

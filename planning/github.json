@@ -1,0 +1,52 @@
+{
+  "repository": "https://github.com/Afnanksalal/hell-let-loose",
+  "project": "https://github.com/users/Afnanksalal/projects/3",
+  "projectNumber": 3,
+  "milestones": {
+    "Foundation": 1,
+    "Prototype": 2,
+    "Vertical slice": 3
+  },
+  "seedIssues": [
+    {
+      "number": 1,
+      "title": "Establish public repository governance and project board",
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/1"
+    },
+    {
+      "number": 2,
+      "title": "Decide multiplayer battle format",
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/2"
+    },
+    {
+      "number": 3,
+      "title": "Define customization scope and art pipeline",
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/3"
+    },
+    {
+      "number": 4,
+      "title": "Define daytime behavior-to-power rules",
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/4"
+    },
+    {
+      "number": 5,
+      "title": "Outline the first connected story episode",
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/5"
+    },
+    {
+      "number": 6,
+      "title": "Decide engine, camera and multiplayer architecture",
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/6"
+    },
+    {
+      "number": 7,
+      "title": "Define aging, memory loss and generation boundaries",
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/7"
+    },
+    {
+      "number": 8,
+      "title": "Set vertical-slice scope and playtest evidence targets",
+      "url": "https://github.com/Afnanksalal/hell-let-loose/issues/8"
+    }
+  ]
+}

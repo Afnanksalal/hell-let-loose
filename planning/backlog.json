@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Establish public repository governance and project board",
+    "area": "Governance",
+    "priority": "P0",
+    "gate": "G0",
+    "milestone": "Foundation",
+    "acceptance": [
+      "Public repository contains the linked knowledge base and process documents.",
+      "GitHub Project is linked and seeded with scoped issues.",
+      "Repository checks pass remotely; main enforces PR and status checks.",
+      "G0 evidence links point to verified repository and board."
+    ]
+  },
+  {
+    "title": "Decide multiplayer battle format",
+    "area": "Gameplay",
+    "priority": "P0",
+    "gate": "G1",
+    "milestone": "Prototype",
+    "acceptance": [
+      "Compare sequential turns, simultaneous planning and another reference-compatible option.",
+      "Describe two-player and eight-player participation, idle handling and exploration transition.",
+      "Record owner decision; do not assume the previous assistant proposal is approved."
+    ]
+  },
+  {
+    "title": "Define customization scope and art pipeline",
+    "area": "Art",
+    "priority": "P1",
+    "gate": "G1",
+    "milestone": "Prototype",
+    "acceptance": [
+      "List first customization dimensions and how outfit/body combinations stay compatible.",
+      "Define original FNF-inspired shapes, expressions, animation and readability targets.",
+      "Record camera and production-method options for decision, not silent adoption."
+    ]
+  },
+  {
+    "title": "Define daytime behavior-to-power rules",
+    "area": "Gameplay",
+    "priority": "P1",
+    "gate": "G1",
+    "milestone": "Prototype",
+    "acceptance": [
+      "Specify predictability, duration, stacking and night/day reset options.",
+      "Provide three illustrative effects with tactical choices and comic consequences.",
+      "Keep the milk example and 30-second cooldown uncommitted."
+    ]
+  },
+  {
+    "title": "Outline the first connected story episode",
+    "area": "Narrative",
+    "priority": "P1",
+    "gate": "G1",
+    "milestone": "Prototype",
+    "acceptance": [
+      "Connect a daytime choice, sunset complication, battle and next-day consequence.",
+      "Include narrator placement, alternate outcomes and multiplayer choices.",
+      "Keep draft lore names provisional until approved."
+    ]
+  },
+  {
+    "title": "Decide engine, camera and multiplayer architecture",
+    "area": "Multiplayer",
+    "priority": "P1",
+    "gate": "G1",
+    "milestone": "Prototype",
+    "acceptance": [
+      "Evaluate candidates against selected battles, art pipeline and team constraints.",
+      "Define authoritative state, campaign ownership and disconnect strategy.",
+      "Record the selection and a two-client validation plan before implementation."
+    ]
+  },
+  {
+    "title": "Define aging, memory loss and generation boundaries",
+    "area": "Design",
+    "priority": "P2",
+    "gate": "G2",
+    "milestone": "Vertical slice",
+    "acceptance": [
+      "Describe aging triggers, mixed-age parties and what forgetting changes.",
+      "Separate narrative memory loss from account unlock deletion.",
+      "Identify first-game versus sequel boundary without locking assistant endings."
+    ]
+  },
+  {
+    "title": "Set vertical-slice scope and playtest evidence targets",
+    "area": "Design",
+    "priority": "P2",
+    "gate": "G2",
+    "milestone": "Vertical slice",
+    "acceptance": [
+      "Set a feasible slice scope after the battle, art and technology decisions.",
+      "Define a complete session and external playtest acceptance targets.",
+      "Specify actual build, save/load and reconnect evidence for G2."
+    ]
+  }
+]

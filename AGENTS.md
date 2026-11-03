@@ -21,3 +21,7 @@ Read README.md, docs/vision.md, docs/continuity.md and decisions/register.md fir
 Update the relevant topic, decision register and changelog when direction changes; link its source. Preserve old ideas in sources/history rather than leaving conflicting current instructions. Validate relative Markdown links. Keep one primary home per topic, using links for related concepts.
 
 This is a concept knowledge base. Do not select an engine, start game implementation, publish a remote or copy reference-game assets unless requested. No agent delegation is required by these instructions.
+
+## Repository workflow
+
+Read CONTRIBUTING.md and docs/process/version-control.md before editing. Use issue-linked branches and PRs after bootstrap. Run repository checks and their tests. Read docs/process/release-gates.md before any release claim. Public publishing of this repository and its project governance was explicitly requested on 2026-11-04; game implementation remains outside scope.

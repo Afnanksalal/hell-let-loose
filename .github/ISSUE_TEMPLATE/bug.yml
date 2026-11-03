@@ -1,0 +1,18 @@
+name: Bug
+description: Reproduce a documentation, tooling or future game defect
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction and expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and evidence
+      description: Include commit/version and environment. Exclude credentials and personal data.
+    validations:
+      required: true

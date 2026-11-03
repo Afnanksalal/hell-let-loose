@@ -1,0 +1,36 @@
+{
+  "version": "0.1.0",
+  "kind": "knowledge-base",
+  "gate": "G0",
+  "criteria": [
+    {
+      "id": "knowledge-base",
+      "status": "pass",
+      "evidence": [
+        "README.md",
+        "docs/continuity.md"
+      ]
+    },
+    {
+      "id": "source-and-decision-boundaries",
+      "status": "pass",
+      "evidence": [
+        "sources/README.md",
+        "decisions/register.md"
+      ]
+    },
+    {
+      "id": "repository-checks",
+      "status": "pass",
+      "evidence": [
+        ".github/workflows/checks.yml",
+        "tests/test_repository_checks.py"
+      ]
+    },
+    {
+      "id": "public-repository-and-board",
+      "status": "pending",
+      "evidence": []
+    }
+  ]
+}

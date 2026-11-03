@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.0 — Unreleased
+
+- Added GitHub governance, issue/PR templates, project planning, required checks and evidence-based release workflow.
+
 ## 2026-11-04
 
 - Read both shared discussions, including the user's later generational endgame.

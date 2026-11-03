@@ -22,6 +22,9 @@ Records direction, not inferred approvals. [Sources](../sources/README.md).
 | D016 | Open | Aging mechanics, finale and sequel boundary | User gives arc, not final rules |
 | D017 | Confirmed deliverable | Local Git repo and split Markdown knowledge base | Current user request |
 
+| D018 | Confirmed deliverable | Governance, project board, release gates, workflow and public GitHub repository | Latest explicit user request |
+| D019 | Proposed positioning | Frankenstein hackathon category; Costume Contest secondary | Assistant recommendation; not user-confirmed category selection |
+
 ## Conflict resolution
 
 FNF replaces pixel art. Pokémon-like battles reopen real-time assumptions but do not approve simultaneous turns. The adulthood arc supersedes an infancy-only campaign. Babies staying small each night can coexist with slow campaign aging. The old text file is archival, not the current entry point.

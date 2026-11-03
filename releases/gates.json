@@ -1,0 +1,43 @@
+{
+  "G0": [
+    "knowledge-base",
+    "source-and-decision-boundaries",
+    "repository-checks",
+    "public-repository-and-board"
+  ],
+  "G1": [
+    "battle-prototype",
+    "customization-proof",
+    "behavior-power",
+    "two-client-state",
+    "connected-loop"
+  ],
+  "G2": [
+    "complete-session",
+    "authored-episode-and-narration",
+    "representative-art",
+    "save-and-reconnect",
+    "external-playtest"
+  ],
+  "G3": [
+    "committed-scope",
+    "target-party-scale",
+    "aging-scope",
+    "save-migration",
+    "no-progression-blockers"
+  ],
+  "G4": [
+    "external-playtests",
+    "measured-performance",
+    "accessibility-and-onboarding",
+    "no-critical-bugs",
+    "distribution-and-assets"
+  ],
+  "G5": [
+    "build-hashes-and-platforms",
+    "recovery-and-support",
+    "known-issues",
+    "naming-and-rights",
+    "owner-go-no-go"
+  ]
+}

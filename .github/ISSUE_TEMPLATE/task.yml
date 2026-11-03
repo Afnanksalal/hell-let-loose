@@ -1,0 +1,24 @@
+name: Task
+description: Bounded design, documentation or implementation work
+title: "[Task] "
+labels: [task]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome and context
+      description: Link the relevant knowledge-base topic and explain why this is needed.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Observable conditions and validation evidence needed for Done.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and open decisions
+      description: Include the release gate and distinguish proposals from confirmed requirements.

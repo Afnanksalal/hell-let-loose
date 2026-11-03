@@ -15,4 +15,4 @@ Simultaneous team battle planning; personality/equipment/behavior move sources; 
 
 ## Interpretation limits
 
-Fortnite's zombie mode being specifically Save the World is unconfirmed. Pokémon-like does not settle turns or creature collection. The repository request authorizes local organization and Git initialization, not publishing a remote, choosing an engine or implementing the game.
+Fortnite's zombie mode being specifically Save the World is unconfirmed. Pokémon-like does not settle turns or creature collection. The earlier request authorized local organization. A subsequent explicit user request authorizes version control, a project board, release gates, workflow and publishing this as a public repository on their GitHub account. Engine choice and game implementation remain unrequested.
