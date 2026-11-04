@@ -1,6 +1,6 @@
 # Implementation plan
 
-Godot is selected. Runtime implementation has not started. This plan breaks the design into tracked work; a future gate does not imply its features are already implemented.
+The Godot bootstrap provides a runnable input preview. This plan breaks the design into tracked work; a future gate does not imply its features are already implemented.
 
 The [Project](https://github.com/users/Afnanksalal/projects/3) holds live status. Each epic below links its native child issues, design context, dependencies and acceptance criteria.
 
