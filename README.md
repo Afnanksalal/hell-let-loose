@@ -92,7 +92,7 @@ Keep the generated executable and its `.pck` file together.
 | [docs/](docs/README.md) | Design, architecture, and development process |
 | [planning/](planning/README.md) | Epics, dependencies, and issue references |
 | [releases/](releases/README.md) | Release criteria, evidence, and notes |
-| [.github/](.github/README.md) | Workflows, templates, and repository rules |
+| [.github/](.github/WORKFLOWS.md) | Workflows, templates, and repository rules |
 
 ## Feedback and rights
 

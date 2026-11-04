@@ -1,6 +1,6 @@
 # GitHub configuration
 
-The Checks workflow validates Markdown and local documentation links. It does not claim to build or test the game before runtime integration.
+The Checks workflow runs Markdown lint, validates local documentation links, and imports and starts the Godot project headlessly.
 
 Main requires a pull request, passing Repository checks, linear history and resolved review conversations. Version tags cannot be rewritten or deleted. The rulesets directory records those settings for reproducibility.
 
