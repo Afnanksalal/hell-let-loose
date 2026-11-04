@@ -27,3 +27,19 @@ jobs:
         with:
           args: --offline --no-progress './**/*.md'
           output: /tmp/lychee-report.md
+      - name: Import and run Godot project
+        shell: bash
+        run: |
+          godot_name=Godot_v4.7.2-stable_linux.x86_64
+          curl --fail --silent --show-error --location --retry 2 \
+            "https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/${godot_name}.zip" \
+            -o "$RUNNER_TEMP/godot.zip"
+          echo "cadd3204e728a35d3f13adb7fd0d7902636b79f6b95c40c265eb73b6c35329e4  $RUNNER_TEMP/godot.zip" | sha256sum --check
+          unzip -q "$RUNNER_TEMP/godot.zip" -d "$RUNNER_TEMP"
+          godot="$RUNNER_TEMP/$godot_name"
+          "$godot" --headless --path . --editor --import 2>&1 | tee "$RUNNER_TEMP/godot-import.log"
+          "$godot" --headless --path . --quit-after 120 -- --smoke-test 2>&1 | tee "$RUNNER_TEMP/godot-run.log"
+          if grep -E '(^|[[:space:]])(SCRIPT ERROR|ERROR):' "$RUNNER_TEMP/godot-import.log" "$RUNNER_TEMP/godot-run.log"; then
+            exit 1
+          fi
+          grep -Fx 'First room ready' "$RUNNER_TEMP/godot-run.log"

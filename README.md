@@ -6,7 +6,7 @@ During the day, take care of yourself, make friends, sneak around the house and 
 
 ## Development status
 
-The game is in pre-production. This repository will contain the complete game source, original assets and development tools. Godot is the selected engine. The design documents and development workflow are in place; the first runnable project has not been added yet.
+The game is in pre-production. This repository will contain the complete game source, original assets and development tools. The first runnable Godot project contains a small input preview. Move the marker with WASD and toggle the room light with E.
 
 The current target is cooperative play for 2 to 8 players, with sessions of roughly 20 to 30 minutes. Battle pacing, networking and customization scope are the next design decisions. The [implementation plan](planning/implementation-plan.md) maps them to the project board.
 
@@ -34,7 +34,21 @@ The visual direction uses bold outlines, expressive faces, exaggerated poses and
 
 ## Development
 
-Start with the [game overview](docs/vision.md), [session sequence](docs/continuity.md) and [decision register](decisions/register.md). The [roadmap](docs/production/roadmap.md) describes what needs to be proven before a playable release. [Godot architecture](docs/architecture/godot.md) defines the project boundary. The exact engine version, renderer and language will be pinned with the first runnable project.
+Start with the [game overview](docs/vision.md), [session sequence](docs/continuity.md) and [decision register](decisions/register.md). The [roadmap](docs/production/roadmap.md) describes what needs to be proven before a playable release. [Godot architecture](docs/architecture/godot.md) defines the project boundary. The project uses Godot 4.7.2, typed GDScript and the Compatibility renderer.
+
+Open the repository root in the Godot Project Manager or run these commands from a terminal at the root.
+
+```powershell
+godot --editor --path .
+godot --path .
+```
+
+For a Windows build, install the matching Windows x64 release template and run:
+
+```powershell
+New-Item -ItemType Directory -Force build | Out-Null
+godot --headless --path . --export-release Windows build/hell-let-loose.exe
+```
 
 [Project board](https://github.com/users/Afnanksalal/projects/3) Ã‚Â· [Issues](https://github.com/Afnanksalal/hell-let-loose/issues) Ã‚Â· [Checks](https://github.com/Afnanksalal/hell-let-loose/actions/workflows/checks.yml)
 

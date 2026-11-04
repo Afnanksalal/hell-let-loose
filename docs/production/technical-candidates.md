@@ -1,6 +1,6 @@
 # Godot architecture evaluation
 
-Godot is the selected engine. [Project architecture](../architecture/godot.md) defines the repository boundary and the configuration choices needed at bootstrap. The exact version, renderer, language and test runner remain open.
+Godot is the selected engine. [Project architecture](../architecture/godot.md) defines the repository boundary and the configuration choices needed at bootstrap. The bootstrap uses Godot 4.7.2, the Compatibility renderer and typed GDScript. The game test runner remains open.
 
 ## Shared state
 

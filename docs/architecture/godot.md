@@ -1,10 +1,10 @@
 # Godot project architecture
 
-Godot is selected for the game. The first runtime task pins an exact supported release, renderer and programming language. No engine executable, plugin or project bootstrap is included yet.
+The project uses Godot 4.7.2 with typed GDScript. GDScript supports direct iteration in the editor and uses the standard Godot distribution. The Compatibility renderer is the starting point for the 2D prototype and supports OpenGL hardware.
 
 ## Project boundary
 
-Place project.godot at the repository root when initializing the game. Runtime resources can then use res://game/ and res://assets/. Keep production code in game/runtime/, scene composition in game/scenes/, authored definitions in game/data/ and interface code in game/ui/.
+The root project.godot makes res://game/ and res://assets/ available to runtime scenes. Keep production code in game/runtime/, scene composition in game/scenes/, authored definitions in game/data/ and interface code in game/ui/.
 
 Documentation and planning directories contain .gdignore markers so the editor does not import them. Keep the tests directory visible until the Godot test runner's discovery rules are chosen.
 
@@ -31,7 +31,7 @@ These are responsibilities, not a mandated singleton or class hierarchy. Begin w
 
 ## First runnable project
 
-The bootstrap task must provide a reproducible editor version, a working entry scene, input actions and documented run/export commands. Add a headless import/smoke check once it can execute a real project. Do not install an unused framework or claim a game build before those files exist.
+The first room checks input wiring and scene loading. The Windows preset exports an x64 build. CI imports the project and runs the entry scene headlessly. See the [root README](../../README.md) for commands.
 
 ## References
 

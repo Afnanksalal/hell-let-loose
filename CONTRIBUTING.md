@@ -18,7 +18,7 @@ Commit subjects should state the change, for example `fix(save): preserve househ
 
 ## Validation
 
-GitHub Actions checks Markdown style and local links. With Node.js available, the equivalent style check is `npx markdownlint-cli2@0.21.0 "**/*.md"`. Runtime build and test commands will be documented with Godot integration.
+GitHub Actions checks Markdown style and local links. With Node.js available, the equivalent style check is `npx markdownlint-cli2@0.21.0 "**/*.md"`. Run `godot --headless --path . --editor --import` followed by `godot --headless --path . -- --smoke-test` to check the runtime bootstrap. See the [README](README.md) for Windows export.
 
 An issue is ready when its outcome, acceptance criteria and dependencies are clear. It is done when the work meets those criteria, its evidence is linked and the relevant PR or decision is accepted. Closing a design task does not establish that a game feature is implemented.
 
